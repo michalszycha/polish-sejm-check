@@ -22,7 +22,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: ETL MPs info
-      run: python MP/EtlMp.py
+      run: python mp/EtlMp.py
 
     - name: ETL proceedings info
       run: python proceeding/EtlProceeding.py
