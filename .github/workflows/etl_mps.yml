@@ -1,0 +1,37 @@
+name: ETL MPs info
+
+on:
+  workflow_dispatch:
+
+jobs:
+  etl-deputies:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: ETL deputies personal information
+      run: python main.py
+
+    - name: Upload database file
+      uses: actions/upload-artifact@v2
+      with:
+        name: deputies-db
+        path: deputies.db
+
+    - name: Upload csv file
+      uses: actions/upload-artifact@v2
+      with:
+        name: deputies-csv
+        path: deputies.csv
