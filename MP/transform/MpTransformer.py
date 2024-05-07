@@ -24,5 +24,7 @@ def change_column_order(mps: pd.DataFrame) -> pd.DataFrame:
             'voivodeship',
             'numberOfVotes',
             'active',
+            'inactiveCause',
+            'waiverDesc',
         ]
     ]
