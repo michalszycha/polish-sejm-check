@@ -1,15 +1,15 @@
 import pandas as pd
 
 
-def drop_unused_columns(mp: pd.DataFrame) -> pd.DataFrame:
-    mp = mp.drop('firstLastName', axis=1)
-    mp = mp.drop('lastFirstName', axis=1)
-    mp = mp.drop('email', axis=1)
-    return mp
+def drop_unused_columns(mps: pd.DataFrame) -> pd.DataFrame:
+    mps = mps.drop('firstLastName', axis=1)
+    mps = mps.drop('lastFirstName', axis=1)
+    mps = mps.drop('email', axis=1)
+    return mps
 
 
-def change_column_order(mp: pd.DataFrame) -> pd.DataFrame:
-    return mp[
+def change_column_order(mps: pd.DataFrame) -> pd.DataFrame:
+    return mps[
         [
             'id',
             'firstName',
