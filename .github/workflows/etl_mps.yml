@@ -27,11 +27,11 @@ jobs:
     - name: Upload database file
       uses: actions/upload-artifact@v2
       with:
-        name: deputies-db
-        path: deputies.db
+        name: mps-db
+        path: mps.db
 
     - name: Upload csv file
       uses: actions/upload-artifact@v2
       with:
-        name: deputies-csv
-        path: deputies.csv
+        name: mps-csv
+        path: mps.csv
