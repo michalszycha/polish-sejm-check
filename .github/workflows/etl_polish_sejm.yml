@@ -1,0 +1,52 @@
+name: ETL polish sejm info
+
+on:
+  workflow_dispatch:
+
+jobs:
+  etl-deputies:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: ETL MPs info
+      run: python MP/EtlMp.py
+
+    - name: ETL proceedings info
+      run: python proceeding/EtlProceeding.py
+
+    - name: Upload MPs database file
+      uses: actions/upload-artifact@v2
+      with:
+        name: mps-db
+        path: mps.db
+
+    - name: Upload MPs csv file
+      uses: actions/upload-artifact@v2
+      with:
+        name: mps-csv
+        path: mps.csv
+
+    - name: Upload proceedings database file
+      uses: actions/upload-artifact@v2
+      with:
+        name: proceedings-db
+        path: proceedings.db
+
+    - name: Upload proceedings csv file
+      uses: actions/upload-artifact@v2
+      with:
+        name: proceedings-csv
+        path: proceedings.csv

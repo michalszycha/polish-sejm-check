@@ -1,6 +1,6 @@
 import pandas as pd
-import MP.extract.MpExtractor as Extract
-import MP.transform.MpTransformer as Transform
+import mp.extract.MpExtractor as Extract
+import mp.transform.MpTransformer as Transform
 import utils.Loader as Load
 
 

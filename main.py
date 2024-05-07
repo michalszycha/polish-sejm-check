@@ -1,4 +1,4 @@
-from MP.EtlMp import prepare_mp
+from mp.EtlMp import prepare_mp
 from proceeding.EtlProceeding import prepare_proceedings
 
 
