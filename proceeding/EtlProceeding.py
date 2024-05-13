@@ -8,5 +8,5 @@ def prepare_proceedings() -> pd.DataFrame:
     proceedings = Extract.get_proceedings()
     proceedings = Transform.transform_proceedings(proceedings)
     Load.load_to_csv(proceedings, "proceedings")
-    Load.load_to_sql(proceedings, "proceedings")
+    #Load.load_to_sql(proceedings, "proceedings")
     return proceedings
