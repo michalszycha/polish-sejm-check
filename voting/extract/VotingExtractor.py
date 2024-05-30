@@ -1,18 +1,13 @@
 import pandas as pd
-import grequests
+import requests
 
 
-def get_mp_voting(mp_ids: pd.Series, proceedings: pd.DataFrame):
+def get_voting_list(proceedings: pd.Series) -> list:
     data = []
-    for mp_id in mp_ids:
-        print(mp_id)
-        urls = [
-            f"https://api.sejm.gov.pl/sejm/term10/MP/{mp_id}/votings/{row['number']}/{row['date']}"
-            for index, row in proceedings.iterrows()
-        ]
-        requests = (grequests.get(url) for url in urls)
-        responses = grequests.map(requests)
-        responses = [response for response in responses if response is not None]
-        responses_json = [response.json() for response in responses]
-        data.append(responses_json)
-    return pd.DataFrame.from_dict(data)
+    for proceeding in proceedings:
+        url = f"https://api.sejm.gov.pl/sejm/term10/votings/{proceeding}"
+        request = requests.get(url)
+        request_json = request.json()
+        data.append(request_json)
+    voting_list = [item for sublist in data for item in sublist]
+    return voting_list
