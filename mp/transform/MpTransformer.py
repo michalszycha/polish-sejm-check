@@ -41,6 +41,7 @@ def change_column_order(mps: pd.DataFrame) -> pd.DataFrame:
             'numberOfVotes',
             'active',
             'inactiveCause',
+            'waiverDesc',
             'percentOfVoting',
         ]
     ]
