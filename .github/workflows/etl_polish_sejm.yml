@@ -36,14 +36,14 @@ jobs:
         name: mps-csv
         path: mps.csv
 
-    - name: Upload proceedings database file
+    - name: Upload sittings database file
       uses: actions/upload-artifact@v2
       with:
-        name: proceedings-db
-        path: proceedings.db
+        name: sittings-db
+        path: sittings.db
 
-    - name: Upload proceedings csv file
+    - name: Upload sittings csv file
       uses: actions/upload-artifact@v2
       with:
-        name: proceedings-csv
-        path: proceedings.csv
+        name: sittings-csv
+        path: sittings.csv
