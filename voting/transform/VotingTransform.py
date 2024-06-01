@@ -1,7 +1,5 @@
-import multiprocessing
 import pandas as pd
 import json
-from joblib import Parallel, delayed
 
 
 def add_id_column(voting: pd.DataFrame) -> pd.DataFrame:
@@ -20,29 +18,38 @@ def map_vote_options(row):
     if isinstance(row['votingOptions'], list):
         option_map = {str(option['optionIndex']): option['option'] for option in row['votingOptions']}
         list_votes = row['votes']['listVotes']
+        votes = []
         for option_index, vote_status in list_votes.items():
             if vote_status == 'YES':
-                row['votes']['vote'] = option_map.get(option_index, 'Unknown')
-                break
+                votes.append(option_map.get(option_index, 'Unknown'))
+            row['votes']['vote'] = votes
     return row
 
 
-def process_row(row):
-    row['votes'] = parse_json_string(row['votes'])
-    row['votingOptions'] = parse_json_string(row['votingOptions'])
-    return map_vote_options(row)
+def normalize_voting_per_mp(voting: pd.DataFrame) -> pd.DataFrame:
+    df = pd.json_normalize(voting['votes'])
+    df['sitting'] = voting['sitting'].values
+    df['votingId'] = voting['id'].values
+    df['votingNumber'] = voting['votingNumber'].values
+    df['votingTitle'] = voting['title'].values
+    df['votingTopic'] = voting['topic'].values
+    df['votingDescription'] = voting['description'].values
+    return df
 
 
 def get_voting_per_mp(voting: pd.DataFrame) -> pd.DataFrame:
-    voting = voting.explode('votes')
-    num_cores = min(8, multiprocessing.cpu_count())  # Adjust the number of cores as needed
-    voting = pd.concat(Parallel(n_jobs=num_cores)(delayed(process_row)(row) for _, row in voting.iterrows()))
-    voting_normalized = pd.json_normalize(voting['votes'])
-    voting_normalized['votingId'] = voting['id'].values
-    voting_normalized['votingTitle'] = voting['title'].values
-    voting_normalized['votingTopic'] = voting['topic'].values
-    voting_normalized['votingDescription'] = voting['description'].values
-    return voting_normalized
+    voting = voting.query('kind != "TRADITIONAL"')
+    voting_with_options = voting.dropna(subset=['votingOptions'])
+    voting_yes_no = voting[pd.isna(voting['votingOptions'])]
+
+    voting_with_options = voting_with_options.explode('votes')
+    voting_with_options = voting_with_options.apply(map_vote_options, axis=1)
+    voting_with_options_normalized = normalize_voting_per_mp(voting_with_options)
+
+    voting_yes_no = voting_yes_no.explode('votes')
+    voting_yes_no_normalized = normalize_voting_per_mp(voting_yes_no)
+
+    return pd.concat([voting_with_options_normalized, voting_yes_no_normalized], axis=0)
 
 
 def change_columns_order(voting: pd.DataFrame) -> pd.DataFrame:
@@ -75,6 +82,8 @@ def change_columns_in_voting_per_mp(voting: pd.DataFrame) -> pd.DataFrame:
             'firstName',
             'lastName',
             'votingId',
+            'sitting',
+            'votingNumber',
             'votingTitle',
             'votingTopic',
             'votingDescription',
