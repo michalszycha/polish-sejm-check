@@ -1,17 +1,8 @@
 import pandas as pd
-import json
 
 
 def add_id_column(voting: pd.DataFrame) -> pd.DataFrame:
     return voting.assign(id=range(1, len(voting) + 1))
-
-
-# Function to parse JSON strings safely
-def parse_json_string(json_str):
-    if isinstance(json_str, str):
-        json_str = json_str.replace("'", '"')
-        return json.loads(json_str)
-    return json_str
 
 
 def map_vote_options(row):
