@@ -1,5 +1,7 @@
+import multiprocessing
 import pandas as pd
 import json
+from joblib import Parallel, delayed
 
 
 def add_id_column(voting: pd.DataFrame) -> pd.DataFrame:
@@ -15,23 +17,26 @@ def parse_json_string(json_str):
 
 
 def map_vote_options(row):
-    # Create a dictionary to map optionIndex to option names
     if isinstance(row['votingOptions'], list):
         option_map = {str(option['optionIndex']): option['option'] for option in row['votingOptions']}
-        # Replace the vote based on listVotes
         list_votes = row['votes']['listVotes']
         for option_index, vote_status in list_votes.items():
             if vote_status == 'YES':
                 row['votes']['vote'] = option_map.get(option_index, 'Unknown')
-                break  # Assuming MP votes 'YES' for only one option
+                break
     return row
 
 
+def process_row(row):
+    row['votes'] = parse_json_string(row['votes'])
+    row['votingOptions'] = parse_json_string(row['votingOptions'])
+    return map_vote_options(row)
+
+
 def get_voting_per_mp(voting: pd.DataFrame) -> pd.DataFrame:
-    voting['votes'] = voting['votes'].apply(parse_json_string)
-    voting['votingOptions'] = voting['votingOptions'].apply(parse_json_string)
     voting = voting.explode('votes')
-    voting = voting.apply(map_vote_options, axis=1)
+    num_cores = min(8, multiprocessing.cpu_count())  # Adjust the number of cores as needed
+    voting = pd.concat(Parallel(n_jobs=num_cores)(delayed(process_row)(row) for _, row in voting.iterrows()))
     voting_normalized = pd.json_normalize(voting['votes'])
     voting_normalized['votingId'] = voting['id'].values
     voting_normalized['votingTitle'] = voting['title'].values
