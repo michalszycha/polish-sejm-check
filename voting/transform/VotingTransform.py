@@ -72,6 +72,7 @@ def change_columns_in_voting_per_mp(voting: pd.DataFrame) -> pd.DataFrame:
             'MP',
             'firstName',
             'lastName',
+            'club',
             'votingId',
             'sitting',
             'votingNumber',
