@@ -24,6 +24,7 @@ def normalize_voting_per_mp(voting: pd.DataFrame) -> pd.DataFrame:
     df['votingNumber'] = voting['votingNumber'].values
     df['votingTitle'] = voting['title'].values
     df['votingTopic'] = voting['topic'].values
+    df['kind'] = voting['kind'].values
     df['votingDescription'] = voting['description'].values
     return df
 
@@ -79,6 +80,7 @@ def change_columns_in_voting_per_mp(voting: pd.DataFrame) -> pd.DataFrame:
             'votingTitle',
             'votingTopic',
             'votingDescription',
+            'kind',
             'vote',
         ]
     ]
