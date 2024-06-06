@@ -2,15 +2,22 @@ import pandas as pd
 import voting.extract.VotingExtractor as Extract
 import voting.transform.VotingTransform as Transform
 import asyncio
+import nest_asyncio
+
+nest_asyncio.apply()
 
 
 def prepare_voting(sittings: pd.DataFrame) -> pd.DataFrame:
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    voting = loop.run_until_complete(Extract.get_voting(sittings['number'].unique()))
+    async def get_voting(numbers):
+        return await Extract.get_voting(numbers)
+
+    sittings_numbers = sittings['number'].unique()
+    loop = asyncio.get_event_loop()
+    voting = loop.run_until_complete(get_voting(sittings_numbers))
+
     voting = Transform.add_id_column(voting)
     voting = Transform.change_columns_order(voting)
-    loop.close()
+
     return voting
 
 
