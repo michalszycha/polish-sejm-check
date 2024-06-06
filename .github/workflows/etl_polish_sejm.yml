@@ -2,6 +2,11 @@ name: ETL polish sejm info
 
 on:
   workflow_dispatch:
+    inputs:
+      TERM:
+        description: 'A polish sejm term to get data'
+        required: true
+        default: 10
 
 jobs:
   etl-deputies:
@@ -24,26 +29,26 @@ jobs:
     - name: Run polish-sejm-check
       run: python etl_polish_sejm.py
 
-    - name: Upload MPs database file
-      uses: actions/upload-artifact@v2
-      with:
-        name: mps-db
-        path: mps.db
-
     - name: Upload MPs csv file
       uses: actions/upload-artifact@v2
       with:
-        name: mps-csv
-        path: mps.csv
-
-    - name: Upload sittings database file
-      uses: actions/upload-artifact@v2
-      with:
-        name: sittings-db
-        path: sittings.db
+        name: "mps_term${{ github.event.inputs.TERM }}.csv"
+        path: "cache/mps_term${{ github.event.inputs.TERM }}.csv"
 
     - name: Upload sittings csv file
       uses: actions/upload-artifact@v2
       with:
-        name: sittings-csv
-        path: sittings.csv
+        name: "sittings_term${{ github.event.inputs.TERM }}.csv"
+        path: "cache/sittings_term${{ github.event.inputs.TERM }}.csv"
+
+    - name: Upload voting csv file
+      uses: actions/upload-artifact@v2
+      with:
+        name: "voting_term${{ github.event.inputs.TERM }}.csv"
+        path: "cache/voting_term${{ github.event.inputs.TERM }}.csv"
+
+    - name: Upload voting per MP csv file
+      uses: actions/upload-artifact@v2
+      with:
+        name: "voting_per_mp_term${{ github.event.inputs.TERM }}.csv"
+        path: "cache/voting_per_mp_term${{ github.event.inputs.TERM }}.csv"
