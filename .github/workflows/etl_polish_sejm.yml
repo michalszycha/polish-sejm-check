@@ -32,23 +32,23 @@ jobs:
     - name: Upload MPs csv file
       uses: actions/upload-artifact@v2
       with:
-        name: mps-csv
+        name: "mps_term${{ github.event.inputs.TERM }}.csv"
         path: "cache/mps_term${{ github.event.inputs.TERM }}.csv"
 
     - name: Upload sittings csv file
       uses: actions/upload-artifact@v2
       with:
-        name: mps-csv
+        name: "sittings_term${{ github.event.inputs.TERM }}.csv"
         path: "cache/sittings_term${{ github.event.inputs.TERM }}.csv"
 
     - name: Upload voting csv file
       uses: actions/upload-artifact@v2
       with:
-        name: mps-csv
+        name: "voting_term${{ github.event.inputs.TERM }}.csv"
         path: "cache/voting_term${{ github.event.inputs.TERM }}.csv"
 
     - name: Upload voting per MP csv file
       uses: actions/upload-artifact@v2
       with:
-        name: mps-csv
+        name: "voting_per_mp_term${{ github.event.inputs.TERM }}.csv"
         path: "cache/voting_per_mp_term${{ github.event.inputs.TERM }}.csv"
