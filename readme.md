@@ -1,7 +1,7 @@
 #Badanie aktywności poselskiej
 
 ##Opis projektu
-Projekt składa się ze skryptu przygotowujący informacje o posłach i ich aktywności w kontekście głosowań w danej kadencji oraz dashboardu który te informacje przedstawia.
+Projekt składa się ze skryptu przygotowującego informacje o posłach i ich aktywności w kontekście głosowań w danej kadencji oraz dashboardu który te informacje przedstawia.
 W folderze projektu znajdują się dane i dashboard dla bieżącej, dziesiątej kadencji.
 
 Dashboard jest wykonany za pomocą programu Power BI i zawiera następujące widoki:
@@ -20,12 +20,12 @@ Dashboard jest wykonany za pomocą programu Power BI i zawiera następujące wid
 ##Instalacja
 Do uruchomienia skryptu jest potrzebne zainstalowanie środowiska Python. Instalator można pobrać ze strony: https://www.python.org/downloads/
 
-Lista wymaganych bibliotek znajduje się w pliku `requirements.txt`. W celu zainstalowania ich należy otworzyć wiersz poleceń, przejść do folderu projektu i uruchomić komndę:
+Lista wymaganych bibliotek znajduje się w pliku `requirements.txt`. W celu ich zainstalowania należy otworzyć wiersz poleceń, przejść do folderu projektu i uruchomić komendę:
 ```
 pip intstall -r requirements.txt
 ```
 
-Do otworzenia pliku .pbix w którym znajduje się dashboard potrzebny jest program Power BI Desktop. Plik instalacyjny oraz instrukcję instalacji można znaleźć pod adresem: https://learn.microsoft.com/pl-pl/power-bi/fundamentals/desktop-get-the-desktop
+Do otworzenia pliku `.pbix` w którym znajduje się dashboard potrzebny jest program Power BI Desktop. Plik instalacyjny oraz instrukcję instalacji można znaleźć pod adresem: https://learn.microsoft.com/pl-pl/power-bi/fundamentals/desktop-get-the-desktop
 
 ##Uruchamianie
 Uruchamiając skrypt przygotowujący dane można podać kadencję dla której mają zostać pobrane.
@@ -33,6 +33,12 @@ W celu uruchomienia skryptu należy otworzyć wiersz poleceń, przejść do fold
 ```
 python etl_polish_sejm.py <term>
 ```
-`<term>` jest kadencją dla której mają zostać pobrane dane. Nie podając tego argumenty program zostanie wykonany dla bieżącej (10) kadencji.
+`<term>` jest kadencją dla której mają zostać pobrane dane. Nie podając tego argumenty program zostanie wykonany dla bieżącej, dziesiątej kadencji.
+
+Po przygotowaniu danych należy otworzyć plik `.pbix`. Aby odświeżyć dane użyte w dashboardzie należy kliknać przycisk `Refresh` (nazwa różni się od zainstalowanej wersji językowej).
 
 Zmieniając źródło danych w zapytaniach w programie Power BI jest możliwe przygotowanie dashboardów dla innych kadencji. Po wcześniejszym uruchomieniu skrypty dla wybranej kadencji.
+
+
+##Link
+Kod projektu znajduje się pod linkiem: https://github.com/michalszycha/polish-sejm-check

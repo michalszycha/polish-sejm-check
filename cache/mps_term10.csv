@@ -1,0 +1,468 @@
+id,firstName,lastName,birthDate,birthLocation,educationLevel,profession,club,districtNum,districtName,voivodeship,numberOfVotes,active,inactiveCause,waiverDesc,percentOfVoting
+1,Andrzej,Adamczyk,1959-01-04,Krzeszowice,wyższe,ekonomista,PiS,13,Kraków,małopolskie,45171,True,,,89.26
+2,Piotr,Adamowicz,1961-06-26,Elbląg,średnie ogólne,dziennikarz,KO,25,Gdańsk,pomorskie,23147,True,,,96.64
+3,Adam,Andruszkiewicz,1990-06-30,Grajewo,wyższe,parlamentarzysta,PiS,24,Białystok,podlaskie,53632,True,,,84.56
+4,Waldemar,Andzel,1971-09-17,Czeladź,wyższe,politolog,PiS,32,Katowice,śląskie,22699,True,,,97.09
+5,Dorota,Arciszewska-Mielewczyk,1968-02-16,Gdynia,wyższe,"ekonomista, menedżer",PiS,26,Słupsk,pomorskie,11766,True,,,83.22
+6,Jan,Ardanowski,1961-02-11,Czernikowo,wyższe,rolnik,PiS,5,Toruń,kujawsko-pomorskie,28658,True,,,91.95
+7,Iwona,Arent,1968-06-04,Olsztyn,wyższe,politolog,PiS,35,Olsztyn,warmińsko-mazurskie,16675,True,,,90.16
+8,Bartosz,Arłukowicz,1971-12-30,Resko,wyższe,lekarz,KO,40,Koszalin,zachodniopomorskie,67325,True,,,99.55
+9,Marek,Ast,1958-09-27,Zielona Góra,wyższe,"pracownik samorządowy, radca prawny, urzędnik państwowy",PiS,8,Zielona Góra,lubuskie,36365,True,,,93.29
+10,Urszula,Augustyn,1964-09-01,Tarnów,wyższe,dziennikarz,KO,15,Tarnów,małopolskie,27047,True,,,99.78
+11,Piotr,Babinetz,1969-09-09,Krosno,wyższe,"historyk, muzealnik",PiS,22,Krosno,podkarpackie,12829,True,,,88.59
+12,Ryszard,Bartosik,1968-01-11,Turek,wyższe,politolog,PiS,37,Konin,wielkopolskie,25371,True,,,85.46
+13,Władysław,Bartoszewski,1955-10-22,Warszawa,wyższe,pracownik naukowy,PSL-TD,19,Warszawa,mazowieckie,34563,True,,,94.18
+14,Barbara,Bartuś,1967-07-03,Gorlice,wyższe,prawnik,PiS,14,Nowy Sącz,małopolskie,21250,True,,,98.21
+15,Paweł,Bejda,1962-10-13,Łowicz,wyższe,"inżynier mechanik, menedżer",PSL-TD,11,Sieradz,łódzkie,25363,True,,,93.74
+16,Konrad,Berkowicz,1984-05-27,Kraków,wyższe,programista,Konfederacja,13,Kraków,małopolskie,36918,True,,,78.08
+17,Sylwia,Bielawska,1975-04-27,Głuszyca,wyższe,pracownik samorządowy,KO,2,Wałbrzych,dolnośląskie,17577,True,,,100.0
+18,Marek,Biernacki,1959-04-28,Sopot,wyższe,prawnik,PSL-TD,26,Słupsk,pomorskie,34369,True,,,82.33
+19,Paweł,Bliźniuk,1986-10-11,Łódź,średnie ogólne,pracownik administracji samorządowej,KO,9,Łódź,łódzkie,12315,True,,,100.0
+20,Mariusz,Błaszczak,1969-09-19,Legionowo,wyższe,urzędnik państwowy,PiS,20,Warszawa,mazowieckie,127578,True,,,95.3
+21,Mateusz,Bochenek,1993-03-12,Sosnowiec,wyższe,parlamentarzysta,KO,32,Katowice,śląskie,15117,True,,,99.78
+22,Rafał,Bochenek,1986-08-14,Kraków,wyższe,prawnik,PiS,12,Kraków,małopolskie,42142,True,,,95.3
+23,Izabela,Bodnar,1975-02-13,Lubliniec,wyższe,ekonomista,Polska2050-TD,3,Wrocław,dolnośląskie,26404,True,,,94.85
+24,Jacek,Bogucki,1959-02-13,Wysokie Mazowieckie,wyższe,inżynier mechanik,PiS,24,Białystok,podlaskie,12032,True,,,93.06
+25,Zbigniew,Bogucki,1980-01-26,Góra,wyższe,adwokat,PiS,41,Szczecin,zachodniopomorskie,26375,True,,,89.26
+26,Krzysztof,Bojarski,1968-07-11,Annopol,wyższe,lekarz,KO,6,Lublin,lubelskie,10672,True,,,87.47
+27,Joanna,Borowiak,1967-08-20,Włocławek,wyższe,"nauczyciel, nauczyciel akademicki",PiS,5,Toruń,kujawsko-pomorskie,25995,True,,,97.09
+28,Kamil,Bortniczuk,1983-06-11,Głuchołazy,wyższe,"menedżer, prawnik, urzędnik państwowy",PiS,16,Płock,mazowieckie,31555,True,,,84.79
+29,Piotr,Borys,1976-01-11,Bolesławiec,wyższe,prawnik,KO,1,Legnica,dolnośląskie,44912,True,,,98.43
+30,Bożena,Borys-Szopa,1954-03-11,Lędziny,wyższe,prawnik,PiS,29,Katowice,śląskie,30445,True,,,98.66
+31,Marcin,Bosacki,1970-11-05,Poznań,wyższe,,KO,39,Poznań,wielkopolskie,24197,True,,,86.58
+32,Karina,Bosak,1988-07-08,Szczecin,wyższe,adwokat,Konfederacja,20,Warszawa,mazowieckie,21217,True,,,82.1
+33,Krzysztof,Bosak,1982-06-13,Zielona Góra,średnie ogólne,parlamentarzysta,Konfederacja,24,Białystok,podlaskie,44902,True,,,97.09
+34,Grzegorz,Braun,1967-03-11,Toruń,wyższe,"publicysta, reżyser",Konfederacja,23,Rzeszów,podkarpackie,26895,True,,,80.09
+35,Krzysztof,Brejza,1983-05-16,Bydgoszcz,wyższe,prawnik,KO,4,Bydgoszcz,kujawsko-pomorskie,89840,False,Zrzeczenie,Objął mandat posła do Parlamentu Europejskiego,93.88
+36,Agnieszka,Buczyńska,1986-09-22,Tczew,wyższe,"politolog, socjolog",Polska2050-TD,25,Gdańsk,pomorskie,35213,True,,,72.48
+37,Waldemar,Buda,1982-09-21,Turek,wyższe,radca prawny,PiS,9,Łódź,łódzkie,45474,True,,,88.59
+38,Borys,Budka,1978-03-11,Czeladź,wyższe,"nauczyciel akademicki, radca prawny",KO,31,Katowice,śląskie,101258,True,,,97.99
+39,Elżbieta,Burkiewicz,1964-10-17,Mielec,wyższe,przedsiębiorca prywatny,Polska2050-TD,23,Rzeszów,podkarpackie,11582,True,,,89.71
+40,Lidia,Burzyńska,1964-08-27,Rzeki Wielkie,wyższe,nauczyciel,PiS,28,Częstochowa,śląskie,49713,True,,,96.42
+41,Marek,Chmielewski,1962-05-06,Dzierżoniów,wyższe,technolog żywności,KO,2,Wałbrzych,dolnośląskie,9108,True,,,99.78
+42,Zbigniew,Chmielowiec,1954-09-22,Kolbuszowa,wyższe,inżynier inżynierii środowiska,PiS,23,Rzeszów,podkarpackie,18574,True,,,85.68
+43,Artur,Chojecki,1974-04-19,Elbląg,wyższe,urzędnik państwowy,PiS,35,Olsztyn,warmińsko-mazurskie,17418,True,,,95.97
+44,Kazimierz,Choma,1957-12-16,Kraśnik,wyższe,zarządzanie zasobami ludzkimi,PiS,6,Lublin,lubelskie,8363,True,,,93.74
+45,Dominika,Chorosińska,1978-12-29,Elbląg,wyższe,aktorka,PiS,20,Warszawa,mazowieckie,9582,True,,,72.71
+46,Tadeusz,Chrzan,1963-09-14,Grodzisko Dolne,wyższe,geodeta,PiS,22,Krosno,podkarpackie,12184,True,,,94.41
+47,Alicja,Chybicka,1951-05-10,Wałbrzych,wyższe,lekarz,KO,3,Wrocław,dolnośląskie,78816,True,,,100.0
+48,Anna,Cicholska,1962-02-07,Ciechanów,wyższe,nauczyciel,PiS,16,Płock,mazowieckie,19074,True,,,69.13
+49,Janusz,Cichoń,1957-01-07,Bytom,wyższe,"emeryt, nauczyciel akademicki",KO,35,Olsztyn,warmińsko-mazurskie,32356,True,,,98.43
+50,Krzysztof,Ciecióra,1989-06-27,Radomsko,wyższe,,PiS,10,Piotrków Trybunalski,łódzkie,10426,True,,,97.54
+51,Janusz,Cieszyński,1988-05-06,Wrocław,wyższe,menedżer,PiS,35,Olsztyn,warmińsko-mazurskie,20644,True,,,91.28
+52,Michał,Cieślak,1974-12-09,Dąbrowa Tarnowska,wyższe,ekonomista,PiS,33,Kielce,świętokrzyskie,5629,True,,,75.84
+53,Żaneta,Cwalina-Śliwowska,1978-12-10,Ostrołęka,wyższe,"pedagog, trener",Polska2050-TD,18,Siedlce,mazowieckie,9747,True,,,100.0
+54,Krzysztof,Czarnecki,1957-10-25,Trzcianka,średnie zawodowe,technik budowlano-drogowy,PiS,38,Piła,wielkopolskie,37420,True,,,98.88
+55,Witold,Czarnecki,1953-04-12,Murowana Goślina,wyższe,nauczyciel akademicki,PiS,37,Konin,wielkopolskie,17601,True,,,93.51
+56,Przemysław,Czarnek,1977-06-11,Koło,wyższe,prawnik,PiS,6,Lublin,lubelskie,121686,True,,,83.22
+57,Arkadiusz,Czartoryski,1966-04-14,Ostrołęka,wyższe,urzędnik samorządowy,PiS,18,Siedlce,mazowieckie,15845,True,,,95.97
+58,Włodzimierz,Czarzasty,1960-05-03,Warszawa,wyższe,politolog,Lewica,32,Katowice,śląskie,22332,True,,,100.0
+59,Jacek,Czerniak,1964-08-30,Świdnik,wyższe,politolog,Lewica,6,Lublin,lubelskie,10910,True,,,99.78
+60,Zofia,Czernow,1950-09-30,Wola Obszańska,wyższe,ekonomista,KO,1,Legnica,dolnośląskie,30258,True,,,99.78
+61,Anita,Czerwińska,1970-01-13,Warszawa,wyższe,prawnik,PiS,20,Warszawa,mazowieckie,18443,True,,,94.85
+62,Katarzyna,Czochara,1969-11-03,Biała,wyższe,nauczyciel,PiS,21,Opole,opolskie,20004,True,,,27.29
+63,Sławomir,Ćwik,1972-01-21,Zamość,wyższe,"menedżer, prawnik, przedsiębiorca prywatny",Polska2050-TD,7,Chełm,lubelskie,8004,True,,,98.88
+64,Władysław,Dajczak,1959-07-10,Międzyrzec,wyższe,inżynier mechanik,PiS,8,Zielona Góra,lubuskie,29131,True,,,76.51
+65,Anna,Dąbrowska-Banaszek,1961-04-14,Chełm,wyższe,lekarz,PiS,7,Chełm,lubelskie,13910,True,,,99.55
+66,Zbigniew,Dolata,1965-12-01,Koźmin,wyższe,nauczyciel,PiS,37,Konin,wielkopolskie,25663,True,,,96.2
+67,Barbara,Dolniak,1960-09-12,Bytom,wyższe,prawnik,KO,32,Katowice,śląskie,37470,True,,,99.55
+68,Andrzej,Domański,1981-08-27,Kraków,wyższe,"doradca ds. ekonomicznych, ekonomista",KO,19,Warszawa,mazowieckie,6848,True,,,91.95
+69,Bartłomiej,Dorywalski,1979-08-16,Włoszczowa,wyższe,radca prawny,PiS,33,Kielce,świętokrzyskie,9696,True,,,98.43
+70,Robert,Dowhan,1967-07-14,Lubsko,wyższe,,KO,8,Zielona Góra,lubuskie,14761,True,,,66.67
+71,Przemysław,Drabek,1979-10-02,Bielsko-Biała,wyższe,menedżer,PiS,27,Bielsko-Biała,śląskie,17886,True,,,94.41
+72,Elżbieta,Duda,1962-11-20,Skała,średnie policealne/pomaturalne,parlamentarzysta,PiS,13,Kraków,małopolskie,11388,True,,,97.09
+73,Michał,Dworczyk,1975-07-22,Warszawa,wyższe,"historyk, polityk",PiS,2,Wałbrzych,dolnośląskie,40264,True,,,69.35
+74,Adam,Dziedzic,1969-09-26,Rzeszów,wyższe,inżynier mechanik,PSL-TD,23,Rzeszów,podkarpackie,24304,True,,,99.33
+75,Jan,Dziedziczak,1981-08-03,Warszawa,wyższe,urzędnik państwowy,PiS,36,Kalisz,wielkopolskie,14689,True,,,88.59
+76,Agnieszka,Dziemianowicz-Bąk,1984-01-20,Wrocław,wyższe,"filozof, pedagog",Lewica,26,Słupsk,pomorskie,30631,True,,,94.63
+77,Magdalena,Filiks,1978-12-08,Barlinek,wyższe,ekonomista,KO,41,Szczecin,zachodniopomorskie,40772,True,,,96.42
+78,Magdalena,Filipek-Sobczak,1983-09-07,Lublin,wyższe,prawnik,PiS,6,Lublin,lubelskie,10480,True,,,95.08
+79,Radosław,Fogiel,1982-02-16,Radom,średnie ogólne,parlamentarzysta,PiS,17,Radom,mazowieckie,32791,True,,,80.98
+80,Bronisław,Foltyn,1974-08-12,Bielsko-Biała,wyższe,przedsiębiorca prywatny,Konfederacja,27,Bielsko-Biała,śląskie,18134,True,,,89.04
+81,Roman,Fritz,1966-01-03,Mikołów,wyższe,przedsiębiorca prywatny,Konfederacja,30,Bielsko-Biała,śląskie,11089,True,,,86.13
+82,Joanna,Frydrych,1978-01-13,Krosno,wyższe,"ekonomista, pracownik administracji państwowej",KO,22,Krosno,podkarpackie,29681,True,,,99.78
+83,Konrad,Frysztak,1986-02-15,Radom,wyższe,"dziennikarz, prawnik",KO,17,Radom,mazowieckie,25416,True,,,98.88
+84,Patryk,Gabriel,1977-03-29,Gdańsk,wyższe,urzędnik samorządowy,KO,25,Gdańsk,pomorskie,11201,True,,,100.0
+85,Krzysztof,Gadowski,1962-08-14,Bochnia,wyższe,inżynier transportu,KO,30,Bielsko-Biała,śląskie,36031,True,,,99.33
+86,Aleksandra,Gajewska,1989-08-22,Warszawa,wyższe,przedsiębiorca prywatny,KO,19,Warszawa,mazowieckie,49428,True,,,99.33
+87,Kinga,Gajewska,1990-07-22,Warszawa,wyższe,"politolog, prawnik",KO,20,Warszawa,mazowieckie,85283,True,,,99.78
+88,Elżbieta,Gapińska,1960-10-03,Płock,wyższe,pedagog,KO,16,Płock,mazowieckie,13214,True,,,99.78
+89,Kamila,Gasiuk-Pihowicz,1983-05-08,Warszawa,wyższe,"adwokat, prawnik",KO,18,Siedlce,mazowieckie,57609,True,,,92.17
+90,Krzysztof,Gawkowski,1980-04-11,Warszawa,wyższe,nauczyciel akademicki,Lewica,4,Bydgoszcz,kujawsko-pomorskie,21831,True,,,98.88
+91,Zdzisław,Gawlik,1960-09-12,Dębica,wyższe,nauczyciel akademicki,KO,23,Rzeszów,podkarpackie,7054,True,,,94.85
+92,Andrzej,Gawron,1965-01-06,Kochcice,wyższe,parlamentarzysta,PiS,28,Częstochowa,śląskie,13239,True,,,92.84
+93,Grzegorz,Gaża,1972-03-23,Pszczyna,wyższe,"parlamentarzysta, przedsiębiorca prywatny",PiS,27,Bielsko-Biała,śląskie,11940,True,,,76.29
+94,Elżbieta,Gelert,1955-04-22,Gdańsk,wyższe,menedżer,KO,34,Elbląg,warmińsko-mazurskie,15847,True,,,86.8
+95,Anna,Gembicka,1991-11-07,Włocławek,wyższe,"prawnik, wyższy urzędnik państwowy",PiS,5,Toruń,kujawsko-pomorskie,25993,True,,,76.06
+96,Artur,Gierada,1979-04-21,Kielce,wyższe,politolog,KO,33,Kielce,świętokrzyskie,16878,True,,,97.32
+97,Roman,Giertych,1971-02-27,Śrem,wyższe,adwokat,KO,33,Kielce,świętokrzyskie,23622,True,,,81.88
+98,Włodzisław,Giziński,1952-10-19,Działdowo,wyższe,,KO,4,Bydgoszcz,kujawsko-pomorskie,13630,True,,,95.3
+99,Szymon,Giżyński,1956-03-08,Częstochowa,wyższe,urzędnik państwowy,PiS,28,Częstochowa,śląskie,14148,True,,,87.47
+100,Piotr,Gliński,1954-04-20,Warszawa,wyższe,pracownik naukowo-dydaktyczny,PiS,19,Warszawa,mazowieckie,135339,True,,,86.13
+101,Tomasz,Głogowski,1974-12-30,Tarnowskie Góry,wyższe,nauczyciel akademicki,KO,29,Katowice,śląskie,11463,True,,,97.32
+102,Piotr,Głowski,1967-07-22,Bydgoszcz,wyższe,ekonomista,KO,38,Piła,wielkopolskie,16067,True,,,90.83
+103,Marta,Golbik,1985-04-14,Gliwice,wyższe,przedsiębiorca prywatny,KO,29,Katowice,śląskie,19430,True,,,100.0
+104,Małgorzata,Golińska,1980-10-30,Szczecinek,wyższe,leśnik,PiS,40,Koszalin,zachodniopomorskie,15253,True,,,96.64
+105,Kazimierz,Gołojuch,1964-02-05,Łańcut,wyższe,parlamentarzysta,PiS,23,Rzeszów,podkarpackie,14216,True,,,97.99
+106,Adam,Gomoła,1999-01-20,Opole,wyższe,specjalista ds. rozwoju i promocji,niez.,21,Opole,opolskie,21923,True,,,93.29
+107,Robert,Gontarz,1993-07-02,Żuromin,wyższe,"ekonomista, matematyk, parlamentarzysta",PiS,34,Elbląg,warmińsko-mazurskie,24940,True,,,92.17
+108,Stanisław,Gorczyca,1958-07-27,Miłomłyn,wyższe,biolog,KO,34,Elbląg,warmińsko-mazurskie,7979,True,,,99.55
+109,Mariusz,Gosek,1982-08-20,Kielce,wyższe,pedagog,PiS,33,Kielce,świętokrzyskie,5309,True,,,95.08
+110,Daria,Gosek-Popiołek,1985-04-16,Sosnowiec,wyższe,pracownik samorządowy,Lewica,13,Kraków,małopolskie,39054,True,,,95.3
+111,Małgorzata,Gosiewska,1966-07-22,Gdańsk,średnie ogólne,urzędnik państwowy,PiS,19,Warszawa,mazowieckie,36523,True,,,83.0
+112,Piotr,Górnikiewicz,1972-07-09,Tarnów,wyższe,ekonomista,Polska2050-TD,15,Tarnów,małopolskie,5180,True,,,99.78
+113,Agnieszka,Górska,1976-01-01,Skarżysko-Kamienna,wyższe,ekonomista,PiS,17,Radom,mazowieckie,11494,True,,,77.63
+114,Krzysztof,Grabczuk,1962-04-22,Sawin,wyższe,nauczyciel akademicki,KO,7,Chełm,lubelskie,32985,True,,,99.55
+115,Jan,Grabiec,1972-11-02,Legionowo,wyższe,urzędnik państwowy,KO,20,Warszawa,mazowieckie,71534,True,,,93.74
+116,Marcin,Grabowski,1981-04-06,Ostrołęka,wyższe,pracownik administracji państwowej,PiS,18,Siedlce,mazowieckie,10339,True,,,95.3
+117,Michał,Gramatyka,1971-10-08,Katowice,wyższe,radca prawny,Polska2050-TD,31,Katowice,śląskie,32251,True,,,97.32
+118,Małgorzata,Gromadzka,1985-03-24,Tarnogród,wyższe,pracownik administracji samorządowej,KO,7,Chełm,lubelskie,10710,True,,,99.55
+119,Marek,Gróbarczyk,1968-03-13,Nowy Sącz,wyższe,inżynier mechanik,PiS,41,Szczecin,zachodniopomorskie,44422,True,,,94.63
+120,Andrzej,Grzyb,1956-08-23,Siedlików,wyższe,"ekonomista, inżynier ogrodnik",PSL-TD,36,Kalisz,wielkopolskie,29391,True,,,95.53
+121,Andrzej,Gut-Mostowy,1960-10-30,Zakopane,wyższe,ekonomista,PiS,14,Nowy Sącz,małopolskie,16467,True,,,90.38
+122,Kazimierz,Gwiazdowski,1962-06-10,Radziłów,średnie zawodowe,rolnik,PiS,24,Białystok,podlaskie,11898,True,,,95.08
+123,Marcin,Gwóźdź,1977-12-14,Ząbkowice Śl.,wyższe,inżynier,PiS,2,Wałbrzych,dolnośląskie,23434,True,,,97.76
+124,Marek,Gzik,1971-09-03,Gliwice,wyższe,nauczyciel akademicki,KO,29,Katowice,śląskie,19070,True,,,98.88
+125,Krzysztof,Habura,1956-06-02,Pabianice,wyższe,inżynier budownictwa,KO,11,Sieradz,łódzkie,11267,True,,,91.05
+126,Agnieszka,Hanajczyk,1963-01-12,Zgierz,wyższe,prawnik,KO,11,Sieradz,łódzkie,16865,True,,,95.97
+127,Iwona,Hartwich,1970-09-06,Rypin,średnie ogólne,sprzedawca,KO,5,Toruń,kujawsko-pomorskie,17889,True,,,100.0
+128,Paulina,Hennig-Kloska,1977-10-05,Gniezno,wyższe,"bankowiec, dziennikarz, ekonomista",Polska2050-TD,37,Konin,wielkopolskie,30334,True,,,98.66
+129,Krzysztof,Hetman,1974-06-27,Lublin,wyższe,politolog,PSL-TD,6,Lublin,lubelskie,28876,True,,,82.33
+130,Czesław,Hoc,1954-02-22,Jelenin,wyższe,lekarz,PiS,40,Koszalin,zachodniopomorskie,31360,True,,,94.63
+131,Zbigniew,Hoffmann,1963-07-05,Poznań,wyższe,politolog,PiS,37,Konin,wielkopolskie,47594,True,,,89.04
+132,Marek,Hok,1953-06-15,Koszalin,wyższe,"lekarz, parlamentarzysta, urzędnik samorządowy",KO,40,Koszalin,zachodniopomorskie,8176,True,,,99.55
+133,Szymon,Hołownia,1976-09-03,Białystok,średnie ogólne,"polityk, publicysta",Polska2050-TD,24,Białystok,podlaskie,79951,True,,,99.55
+134,Marcin,Horała,1981-10-02,Gdańsk,wyższe,"prawnik, specjalista ds. zarządzania, wyższy urzędnik państwowy",PiS,26,Słupsk,pomorskie,47974,True,,,87.02
+135,Łukasz,Horbatowski,1980-05-14,Głogów,wyższe,pracownik samorządowy,KO,1,Legnica,dolnośląskie,13934,True,,,93.96
+136,Paweł,Hreniak,1979-09-09,Wrocław,wyższe,urzędnik państwowy,PiS,3,Wrocław,dolnośląskie,19384,True,,,97.09
+137,Paweł,Jabłoński,1986-01-25,Opole,wyższe,adwokat,PiS,30,Bielsko-Biała,śląskie,22996,True,,,91.28
+138,Klaudia,Jachira,1988-05-31,Wrocław,wyższe,aktorka,KO,19,Warszawa,mazowieckie,9172,True,,,100.0
+139,Marek,Jakubiak,1959-04-30,Warszawa,średnie policealne/pomaturalne,przedsiębiorca prywatny,Kukiz15,19,Warszawa,mazowieckie,39151,True,,,88.37
+140,Maria,Janyska,1962-01-16,Wyrzysk,wyższe,ekonomista,KO,38,Piła,wielkopolskie,23592,True,,,100.0
+141,Michał,Jaros,1981-01-26,Aleksandrów Kujawski,wyższe,ekonomista,KO,3,Wrocław,dolnośląskie,30512,True,,,99.33
+142,Patryk,Jaskulski,1990-08-18,Szczecin,wyższe,politolog,KO,41,Szczecin,zachodniopomorskie,7439,True,,,99.78
+143,Danuta,Jazłowiecka,1957-05-19,Opole,wyższe,polityk,KO,21,Opole,opolskie,11580,True,,,71.81
+144,Dariusz,Joński,1979-01-12,Łódź,wyższe,ekonomista,KO,9,Łódź,łódzkie,87470,True,,,100.0
+145,Marcin,Józefaciuk,1982-10-17,Łódź,wyższe,nauczyciel,KO,9,Łódź,łódzkie,8893,True,,,99.55
+146,Norbert,Kaczmarczyk,1989-11-16,Proszowice,wyższe,"dziennikarz, parlamentarzysta, politolog, rolnik",PiS,15,Tarnów,małopolskie,11926,True,,,97.54
+147,Filip,Kaczyński,1987-11-19,Sucha Beskidzka,wyższe,politolog,PiS,12,Kraków,małopolskie,18285,True,,,97.99
+148,Jarosław,Kaczyński,1949-06-18,Warszawa,wyższe,prawnik,PiS,33,Kielce,świętokrzyskie,177228,True,,,82.77
+149,Piotr,Kaleta,1968-06-25,Kalisz,wyższe,parlamentarzysta,PiS,36,Kalisz,wielkopolskie,16344,True,,,99.55
+150,Sebastian,Kaleta,1989-07-29,Siedliszcze,wyższe,radca prawny,PiS,19,Warszawa,mazowieckie,31369,True,,,94.85
+151,Mariusz,Kałużny,1986-08-10,Toruń,wyższe,politolog,PiS,5,Toruń,kujawsko-pomorskie,19072,True,,,71.36
+152,Mariusz,Kamiński,1965-09-25,Sochaczew,wyższe,historyk,PiS,7,Chełm,lubelskie,44195,False,,Utrata prawa wybieralności,80.95
+153,Piotr,Kandyba,1969-10-13,Dobra,wyższe,menedżer,KO,20,Warszawa,mazowieckie,15144,True,,,99.78
+154,Jan,Kanthak,1991-09-20,Gdańsk,wyższe,prawnik,PiS,6,Lublin,lubelskie,22037,True,,,93.96
+155,Fryderyk,Kapinos,1961-12-31,Mielec,wyższe,technolog żywności,PiS,23,Rzeszów,podkarpackie,18065,True,,,93.51
+156,Jacek,Karnowski,1963-08-16,Gdańsk,wyższe,"ekonomista, inżynier budownictwa",KO,25,Gdańsk,pomorskie,55069,True,,,98.66
+157,Iwona,Karolewska,1974-03-11,Lniano,wyższe,urzędnik samorządowy,KO,4,Bydgoszcz,kujawsko-pomorskie,8572,True,,,99.78
+158,Rafał,Kasprzyk,1971-08-27,Busko Zdrój,wyższe,"inżynier budownictwa, menedżer",Polska2050-TD,33,Kielce,świętokrzyskie,10907,True,,,99.78
+159,Henryk,Kiepura,1969-11-10,Kłobuck,wyższe,prawnik,PSL-TD,28,Częstochowa,śląskie,20665,True,,,96.42
+160,Marcin,Kierwiński,1976-08-22,Warszawa,wyższe,elektronik,KO,16,Płock,mazowieckie,51828,True,,,98.21
+161,Katarzyna,Kierzek-Koperska,1974-06-09,Września,wyższe,doradca podatkowy,KO,39,Poznań,wielkopolskie,20091,True,,,98.88
+162,Dariusz,Klimczak,1980-06-17,Rawa Mazowiecka,wyższe,historyk,PSL-TD,10,Piotrków Trybunalski,łódzkie,21826,True,,,98.66
+163,Joanna,Kluzik-Rostkowska,1963-12-14,Katowice,wyższe,dziennikarz,KO,17,Radom,mazowieckie,21218,True,,,99.33
+164,Agnieszka,Kłopotek,1969-07-09,Tarnów,wyższe,zootechnik,PSL-TD,4,Bydgoszcz,kujawsko-pomorskie,11049,True,,,95.53
+165,Łukasz,Kmita,1985-11-07,Olkusz,wyższe,urzędnik państwowy,PiS,12,Kraków,małopolskie,26062,True,,,92.39
+166,Michał,Kobosko,1968-04-15,Warszawa,wyższe,,Polska2050-TD,19,Warszawa,mazowieckie,61452,True,,,78.08
+167,Maria,Koc,1964-08-22,Prudnik,wyższe,parlamentarzysta,PiS,18,Siedlce,mazowieckie,70732,True,,,95.3
+168,Ewa,Kołodziej,1978-09-02,Katowice,wyższe,politolog,KO,31,Katowice,śląskie,7283,True,,,100.0
+169,Magdalena,Kołodziejczak,1958-06-19,Dąbrówka,wyższe,prawnik,KO,25,Gdańsk,pomorskie,12773,True,,,99.11
+170,Michał,Kołodziejczak,1988-09-14,Sieradz,średnie ogólne,rolnik,KO,37,Konin,wielkopolskie,44062,True,,,95.75
+171,Rafał,Komarewicz,1971-06-10,Ełk,wyższe,przedsiębiorca prywatny,Polska2050-TD,13,Kraków,małopolskie,44808,True,,,99.78
+172,Maciej,Konieczny,1980-10-14,Gliwice,wyższe,parlamentarzysta,Lewica,31,Katowice,śląskie,17901,True,,,97.76
+173,Zbigniew,Konwiński,1974-03-24,Słupsk,wyższe,"historyk, menedżer",KO,26,Słupsk,pomorskie,15538,True,,,100.0
+174,Władysław,Kosiniak-Kamysz,1981-08-10,Kraków,wyższe,lekarz,PSL-TD,15,Tarnów,małopolskie,50139,True,,,98.43
+175,Tomasz,Kostuś,1974-03-07,Kluczbork,wyższe,politolog,KO,21,Opole,opolskie,11857,True,,,99.78
+176,Andrzej,Kosztowniak,1976-03-31,Radom,wyższe,"ekonomista, prawnik",PiS,17,Radom,mazowieckie,9755,True,,,89.93
+177,Katarzyna,Kotula,1977-02-01,Gryfino,wyższe,nauczyciel,Lewica,25,Gdańsk,pomorskie,33122,True,,,97.09
+178,Paweł,Kowal,1975-07-22,Rzeszów,wyższe,nauczyciel akademicki,KO,23,Rzeszów,podkarpackie,63534,True,,,95.53
+179,Henryk,Kowalczyk,1956-07-15,Żabianka,wyższe,matematyk,PiS,18,Siedlce,mazowieckie,30081,True,,,96.87
+180,Janusz,Kowalski,1978-04-11,Opole,wyższe,prawnik,PiS,21,Opole,opolskie,14593,True,,,76.51
+181,Bartosz,Kownacki,1979-08-11,Warszawa,wyższe,adwokat,PiS,4,Bydgoszcz,kujawsko-pomorskie,17135,True,,,86.35
+182,Iwona,Kozłowska,1963-08-11,Więcbork,wyższe,pedagog,KO,4,Bydgoszcz,kujawsko-pomorskie,14514,True,,,98.43
+183,Stefan,Krajewski,1981-06-08,Zambrów,wyższe,politolog,PSL-TD,24,Białystok,podlaskie,9803,True,,,88.81
+184,Wiesław,Krajewski,1964-06-03,Chojnów,wyższe,parlamentarzysta,PiS,15,Tarnów,małopolskie,24838,True,,,93.06
+185,Leonard,Krasulski,1950-11-08,Sopot,średnie ogólne,pracownik administracyjny,PiS,34,Elbląg,warmińsko-mazurskie,13948,True,,,93.96
+186,Iwona,Krawczyk,1965-07-19,Jawor,wyższe,"menedżer, nauczyciel, nauczyciel akademicki",KO,1,Legnica,dolnośląskie,8831,True,,,100.0
+187,Michał,Krawczyk,1978-03-21,Lublin,wyższe,menedżer,KO,6,Lublin,lubelskie,12009,True,,,100.0
+188,Robert,Kropiwnicki,1974-07-23,Legnica,wyższe,"menedżer, nauczyciel akademicki",KO,1,Legnica,dolnośląskie,31838,True,,,99.33
+189,Piotr,Król,1974-06-26,Bydgoszcz,wyższe,politolog,PiS,4,Bydgoszcz,kujawsko-pomorskie,17952,True,,,99.78
+190,Wojciech,Król,1985-04-22,Jaworzno,wyższe,"parlamentarzysta, urzędnik samorządowy",KO,31,Katowice,śląskie,7136,True,,,100.0
+191,Anna,Krupka,1981-10-30,Warszawa,wyższe,socjolog,PiS,33,Kielce,świętokrzyskie,39854,True,,,92.39
+192,Andrzej,Kryj,1960-06-09,Ostrowiec Świętokrzyski,wyższe,urzędnik samorządowy,PiS,33,Kielce,świętokrzyskie,6968,True,,,88.59
+193,Mariusz,Krystian,1976-09-18,Zator,wyższe,"nauczyciel, technik elektryk",PiS,12,Kraków,małopolskie,11366,True,,,95.08
+194,Marek,Krząkała,1967-10-22,Rybnik,wyższe,"nauczyciel, tłumacz",KO,30,Bielsko-Biała,śląskie,18605,True,,,100.0
+195,Adam,Krzemiński,1975-01-14,Ciechanów,wyższe,"nauczyciel, pracownik administracji samorządowej, technik elektronik",KO,16,Płock,mazowieckie,6071,True,,,100.0
+196,Henryka,Krzywonos-Strycharska,1953-03-27,Olsztyn,średnie ogólne,emeryt,KO,26,Słupsk,pomorskie,8460,True,,,87.47
+197,Krzysztof,Kubów,1984-07-22,Lubin,wyższe,administratywista,PiS,1,Legnica,dolnośląskie,15928,True,,,98.21
+198,Anita,Kucharska-Dziedzic,1972-01-21,Wołczyn,wyższe,"nauczycielka akademicka, parlamentarzystka",Lewica,8,Zielona Góra,lubuskie,23051,True,,,100.0
+199,Marek,Kuchciński,1955-08-09,Przemyśl,średnie policealne/pomaturalne,urzędnik państwowy,PiS,22,Krosno,podkarpackie,50519,True,,,90.16
+200,Paweł,Kukiz,1963-06-24,Paczków,średnie ogólne,muzyk,Kukiz15,21,Opole,opolskie,43292,True,,,67.56
+201,Marcin,Kulasek,1976-04-04,Jędrzejów,wyższe,parlamentarzysta,Lewica,35,Olsztyn,warmińsko-mazurskie,11514,True,,,93.06
+202,Maria,Kurowska,1954-06-03,Brzostek,wyższe,parlamentarzysta,PiS,22,Krosno,podkarpackie,20813,True,,,95.97
+203,Władysław,Kurowski,1960-04-14,Myślenice,wyższe,pracownik administracji samorządowej,PiS,12,Kraków,małopolskie,12320,True,,,96.87
+204,Zbigniew,Kuźmiuk,1956-09-19,Komorowo,wyższe,nauczyciel akademicki,PiS,17,Radom,mazowieckie,24702,True,,,95.3
+205,Anna,Kwiecień,1964-09-30,Radom,wyższe,urzędnik samorządowy,PiS,17,Radom,mazowieckie,34570,True,,,95.97
+206,Piotr,Lachowicz,1967-09-29,Nowy Sącz,wyższe,ekonomista,KO,14,Nowy Sącz,małopolskie,12918,True,,,99.33
+207,Stanisław,Lamczyk,1957-08-12,Brusy,wyższe,inżynier mechanik,KO,26,Słupsk,pomorskie,8722,True,,,93.51
+208,Maciej,Lasek,1967-06-15,Elbląg,wyższe,"inżynier mechanik, nauczyciel akademicki",KO,20,Warszawa,mazowieckie,20565,True,,,99.78
+209,Gabriela,Lenartowicz,1960-12-12,Katowice,wyższe,parlamentarzysta,KO,30,Bielsko-Biała,śląskie,16515,True,,,90.38
+210,Ewa,Leniart,1976-08-27,Dylągówka,wyższe,prawnik,PiS,23,Rzeszów,podkarpackie,38795,True,,,93.51
+211,Aleksandra,Leo,1981-03-28,Warszawa,wyższe,prawnik,Polska2050-TD,2,Wałbrzych,dolnośląskie,16661,True,,,98.21
+212,Izabela,Leszczyna,1962-09-03,Częstochowa,wyższe,nauczyciel,KO,28,Częstochowa,śląskie,60549,True,,,97.99
+213,Joanna,Lichocka,1969-11-21,Warszawa,wyższe,dziennikarz,PiS,11,Sieradz,łódzkie,36060,True,,,93.74
+214,Krzysztof,Lipiec,1959-10-11,Starachowice,wyższe,nauczyciel,PiS,33,Kielce,świętokrzyskie,14962,True,,,82.55
+215,Łukasz,Litewka,1989-05-09,Sosnowiec,wyższe,socjolog,Lewica,32,Katowice,śląskie,40579,True,,,96.2
+216,Grzegorz,Lorek,1970-10-31,Piotrków Trybunalski,wyższe,pracownik administracji samorządowej,PiS,10,Piotrków Trybunalski,łódzkie,19711,True,,,96.42
+217,Radosław,Lubczyk,1978-07-18,Szczecinek,wyższe,lekarz,PSL-TD,40,Koszalin,zachodniopomorskie,14353,True,,,90.38
+218,Katarzyna,Lubnauer,1969-07-24,Łódź,wyższe,nauczyciel akademicki,KO,19,Warszawa,mazowieckie,22529,True,,,99.11
+219,Adam,Luboński,1969-04-30,Piła,średnie ogólne,przedsiębiorca prywatny,Polska2050-TD,38,Piła,wielkopolskie,8724,True,,,100.0
+220,Artur,Łącki,1961-12-05,Trzebiatów,wyższe,prawnik,KO,41,Szczecin,zachodniopomorskie,6100,True,,,98.66
+221,Alicja,Łepkowska-Gołaś,1983-01-01,Łomża,wyższe,archiwista,KO,24,Białystok,podlaskie,13511,True,,,89.04
+222,Dorota,Łoboda,1975-08-19,Warszawa,wyższe,teatrolożka,KO,19,Warszawa,mazowieckie,10510,True,,,99.33
+223,Krystian,Łuczak,1975-01-16,Włocławek,wyższe,archeolog,KO,5,Toruń,kujawsko-pomorskie,16451,True,,,99.55
+224,Sebastian,Łukaszewicz,1991-02-09,Białystok,wyższe,pracownik administracji samorządowej,PiS,24,Białystok,podlaskie,11554,True,,,83.22
+225,Marzena,Machałek,1960-08-29,Wrocław,wyższe,nauczyciel,PiS,1,Legnica,dolnośląskie,18363,True,,,95.3
+226,Antoni,Macierewicz,1948-08-03,Warszawa,wyższe,historyk,PiS,10,Piotrków Trybunalski,łódzkie,32496,True,,,93.51
+227,Marlena,Maląg,1964-11-02,Ostrów Wielkopolski,wyższe,parlamentarzysta,PiS,36,Kalisz,wielkopolskie,109870,True,,,88.81
+228,Ewa,Malik,1961-01-11,Sosnowiec,wyższe,inżynier metalurg,PiS,32,Katowice,śląskie,39498,True,,,73.38
+229,Mirosław,Maliszewski,1968-02-28,Warszawa,wyższe,pracownik administracji samorządowej,PSL-TD,17,Radom,mazowieckie,17857,True,,,93.74
+230,Maciej,Małecki,1974-10-09,Warszawa,wyższe,historyk,PiS,16,Płock,mazowieckie,33696,True,,,95.3
+231,Arkadiusz,Marchewka,1986-01-18,Szczecin,wyższe,nauczyciel akademicki,KO,41,Szczecin,zachodniopomorskie,33222,True,,,99.55
+232,Jagna,Marczułajtis-Walczak,1978-12-15,Zakopane,wyższe,"nauczyciel, trener",KO,13,Kraków,małopolskie,35573,True,,,97.99
+233,Dorota,Marek,1973-12-28,Krzeszowice,wyższe,przedsiębiorca prywatny,KO,13,Kraków,małopolskie,14141,True,,,99.55
+234,Dariusz,Matecki,1989-02-06,Szczecin,wyższe,prawnik,PiS,41,Szczecin,zachodniopomorskie,14974,True,,,87.02
+235,Jerzy,Materna,1956-03-25,Zielona Góra,wyższe,inżynier budownictwa,PiS,8,Zielona Góra,lubuskie,17470,True,,,94.63
+236,Grzegorz,Matusiak,1961-02-24,Jaworzno,wyższe,parlamentarzysta,PiS,30,Bielsko-Biała,śląskie,12690,True,,,89.04
+237,Katarzyna,Matusik-Lipiec,1975-06-29,Gorlice,wyższe,menedżer,KO,13,Kraków,małopolskie,9261,True,,,97.76
+238,Marek,Matuszewski,1959-08-14,Zgierz,średnie zawodowe,parlamentarzysta,PiS,11,Sieradz,łódzkie,17412,True,,,97.54
+239,Paulina,Matysiak,1984-10-02,Kutno,wyższe,filolog,Lewica,11,Sieradz,łódzkie,17695,True,,,97.54
+240,Łukasz,Mejza,1991-05-15,Zielona Góra,wyższe,przedsiębiorca prywatny,PiS,8,Zielona Góra,lubuskie,10162,True,,,76.96
+241,Sławomir,Mentzen,1986-11-20,Toruń,wyższe,doradca podatkowy,Konfederacja,19,Warszawa,mazowieckie,101269,True,,,67.11
+242,Anna,Milczanowska,1958-07-18,Radomsko,wyższe,pracownik administracji samorządowej,PiS,10,Piotrków Trybunalski,łódzkie,22595,True,,,88.37
+243,Daniel,Milewski,1989-11-22,Chicago (Usa),wyższe,"nauczyciel akademicki, parlamentarzysta, polityk, prawnik",PiS,18,Siedlce,mazowieckie,44145,True,,,95.75
+244,Rajmund,Miller,1954-07-16,Kielce,wyższe,lekarz,KO,21,Opole,opolskie,11835,False,Zgon,Zmarł,71.18
+245,Aleksander,Miszalski,1980-08-07,Kraków,wyższe,przedsiębiorca prywatny,KO,13,Kraków,małopolskie,29414,False,Zrzeczenie,Wybrany na funkcję Prezydenta Miasta Krakowa,98.49
+246,Mateusz,Morawiecki,1968-06-20,Wrocław,wyższe,polityk,PiS,31,Katowice,śląskie,117064,True,,,76.73
+247,Jan,Mosiński,1956-12-19,Lubin,wyższe,politolog,PiS,36,Kalisz,wielkopolskie,7321,True,,,92.84
+248,Michał,Moskal,1994-05-06,Janów Lubelski,wyższe,prawnik,PiS,6,Lublin,lubelskie,21958,True,,,86.58
+249,Czesław,Mroczek,1964-07-20,Kałuszyn,wyższe,prawnik,KO,18,Siedlce,mazowieckie,11648,True,,,99.11
+250,Aleksander,Mrówczyński,1953-12-09,Chojnice,wyższe,parlamentarzysta,PiS,26,Słupsk,pomorskie,15125,True,,,80.98
+251,Izabela,Mrzygłocka,1959-05-20,Wałbrzych,wyższe,ekonomista,KO,2,Wałbrzych,dolnośląskie,14470,True,,,78.75
+252,Joanna,Mucha,1976-04-12,Płońsk,wyższe,nauczyciel akademicki,Polska2050-TD,6,Lublin,lubelskie,32563,True,,,98.88
+253,Arkadiusz,Mularczyk,1971-02-04,Racibórz,wyższe,adwokat,PiS,14,Nowy Sącz,małopolskie,62758,True,,,89.49
+254,Krzysztof,Mulawa,1985-06-24,Siedlce,wyższe,ekspert ds. kontrolingu,Konfederacja,18,Siedlce,mazowieckie,14043,True,,,91.05
+255,Piotr,Müller,1989-05-02,Słupsk,wyższe,"prawnik, urzędnik państwowy",PiS,26,Słupsk,pomorskie,72813,True,,,95.53
+256,Arkadiusz,Myrcha,1984-02-01,Toruń,wyższe,radca prawny,KO,5,Toruń,kujawsko-pomorskie,64452,True,,,99.11
+257,Grzegorz,Napieralski,1974-03-18,Szczecin,wyższe,politolog,KO,41,Szczecin,zachodniopomorskie,7239,True,,,97.99
+258,Dorota,Niedziela,1964-08-20,Oświęcim,wyższe,lekarz weterynarii,KO,12,Kraków,małopolskie,28783,True,,,95.08
+259,Jacek,Niedźwiedzki,1975-06-13,Suwałki,wyższe,specjalista ds. zarządzania,KO,24,Białystok,podlaskie,9063,True,,,99.55
+260,Małgorzata,Niemczyk,1969-10-25,Łódź,wyższe,"ekonomista, nauczyciel, trener",KO,9,Łódź,łódzkie,20959,True,,,99.78
+261,Jolanta,Niezgodzka,1991-02-26,Kłobuck,wyższe,,KO,3,Wrocław,dolnośląskie,7262,True,,,99.33
+262,Sławomir,Nitras,1973-04-26,Połczyn-Zdrój,wyższe,parlamentarzysta,KO,41,Szczecin,zachodniopomorskie,90720,True,,,83.45
+263,Barbara,Nowacka,1975-05-10,Warszawa,wyższe,informatyk,KO,26,Słupsk,pomorskie,139524,True,,,92.17
+264,Maja,Nowak,1987-07-07,Nowa Sól,wyższe,pedagog,Polska2050-TD,8,Zielona Góra,lubuskie,25109,True,,,98.43
+265,Tomasz,Nowak,1956-12-22,Kwidzyn,wyższe,przedsiębiorca prywatny,KO,37,Konin,wielkopolskie,15495,True,,,99.78
+266,Wanda,Nowicka,1956-11-21,Lublin,wyższe,filolożka,Lewica,29,Katowice,śląskie,16882,True,,,91.72
+267,Urszula,Nowogórska,1978-09-29,Limanowa,wyższe,"pielęgniarka, pracownik administracji samorządowej",PSL-TD,14,Nowy Sącz,małopolskie,24388,True,,,99.55
+268,Mirosława,Nykiel,1953-09-23,Wańkowa,wyższe,"menedżer, przedsiębiorca prywatny",KO,27,Bielsko-Biała,śląskie,49436,True,,,99.11
+269,Marcin,Ociepa,1984-10-21,Opole,wyższe,nauczyciel akademicki,PiS,21,Opole,opolskie,40418,True,,,97.09
+270,Marzena,Okła-Drewnowicz,1972-05-20,Skarżysko-Kamienna,wyższe,urzędnik samorządowy,KO,33,Kielce,świętokrzyskie,64990,True,,,98.66
+271,Barbara,Okuła,1973-12-04,Siemiatycze,wyższe,ekonomista,Polska2050-TD,24,Białystok,podlaskie,3482,True,,,99.78
+272,Barbara,Oliwiecka,1977-01-07,Kalisz,wyższe,"menedżer, trener kadry menedżerskiej",Polska2050-TD,36,Kalisz,wielkopolskie,12214,True,,,99.11
+273,Dorota,Olko,1988-01-13,Siedlce,wyższe,socjolog,Lewica,19,Warszawa,mazowieckie,44188,True,,,94.85
+274,Paweł,Olszewski,1979-12-11,Bydgoszcz,wyższe,ekonomista,KO,4,Bydgoszcz,kujawsko-pomorskie,35289,True,,,98.66
+275,Mirosław,Orliński,1986-07-21,Warszawa,wyższe,prawnik,PSL-TD,16,Płock,mazowieckie,9066,True,,,99.11
+276,Łukasz,Osmalak,1977-06-17,Mikołów,wyższe,inżynier informatyk,Polska2050-TD,30,Bielsko-Biała,śląskie,19616,True,,,100.0
+277,Katarzyna,Osos,1980-11-17,Świebodzin,wyższe,radca prawny,KO,8,Zielona Góra,lubuskie,11832,True,,,94.18
+278,Jacek,Osuch,1958-08-28,Olkusz,wyższe,inżynier mechanik,PiS,13,Kraków,małopolskie,10386,True,,,84.56
+279,Jacek,Ozdoba,1991-09-22,Warszawa,wyższe,prawnik,PiS,16,Płock,mazowieckie,19637,True,,,91.72
+280,Teresa,Pamuła,1956-12-28,Lubaczów,wyższe,inżynier ogrodnik,PiS,22,Krosno,podkarpackie,15273,True,,,90.38
+281,Paweł,Papke,1977-02-13,Starogard Gdański,wyższe,pedagog,KO,35,Olsztyn,warmińsko-mazurskie,27023,True,,,93.29
+282,Urszula,Pasławska,1977-01-28,Biskupiec,wyższe,prawnik,PSL-TD,35,Olsztyn,warmińsko-mazurskie,26992,True,,,88.81
+283,Krzysztof,Paszyk,1979-04-10,Poznań,wyższe,prawnik,PSL-TD,38,Piła,wielkopolskie,27642,True,,,99.11
+284,Karolina,Pawliczak,1976-06-25,Godziesze Wielkie,wyższe,prawnik,KO,36,Kalisz,wielkopolskie,21819,True,,,100.0
+285,Bartłomiej,Pejo,1985-04-04,Świdnik,wyższe,"inżynier, menedżer",Konfederacja,6,Lublin,lubelskie,26037,True,,,94.63
+286,Ryszard,Petru,1972-07-06,Wrocław,wyższe,doradca finansowy,Polska2050-TD,19,Warszawa,mazowieckie,24192,True,,,80.76
+287,Małgorzata,Pępek,1961-06-10,Kocierz Rydzwałdzki,wyższe,ekonomista,KO,27,Bielsko-Biała,śląskie,22184,True,,,100.0
+288,Bolesław,Piecha,1954-09-19,Rybnik,wyższe,lekarz,PiS,30,Bielsko-Biała,śląskie,32427,True,,,96.42
+289,Grzegorz,Piechowiak,1963-09-14,Piła,wyższe,"nadzorca sądowy, syndyk, zarządca nieruchomości",PiS,38,Piła,wielkopolskie,13122,True,,,91.72
+290,Anna,Pieczarka,1977-02-15,Tuchów,wyższe,"polityk, pracownik administracji samorządowej",PiS,15,Tarnów,małopolskie,71199,True,,,88.59
+291,Katarzyna,Piekarska,1967-09-23,Warszawa,wyższe,radca prawny,KO,19,Warszawa,mazowieckie,8748,True,,,92.17
+292,Norbert,Pietrykowski,1973-12-17,Mława,wyższe,analityk medyczny,Polska2050-TD,4,Bydgoszcz,kujawsko-pomorskie,27596,True,,,98.43
+293,Lucjan,Pietrzczyk,1960-03-24,Bilcza,wyższe,nauczyciel,KO,33,Kielce,świętokrzyskie,5826,True,,,99.78
+294,Dariusz,Piontkowski,1964-12-17,Sielc,wyższe,nauczyciel,PiS,24,Białystok,podlaskie,22147,True,,,97.54
+295,Kazimierz,Plocke,1958-05-03,Domatowo,wyższe,inżynier rolnik,KO,26,Słupsk,pomorskie,8154,True,,,99.78
+296,Grzegorz,Płaczek,1978-05-13,Tarnowskie Góry,wyższe,"nauczyciel, przedsiębiorca prywatny",Konfederacja,31,Katowice,śląskie,18648,True,,,99.11
+297,Kacper,Płażyński,1989-05-10,Gdańsk,wyższe,adwokat,PiS,25,Gdańsk,pomorskie,100445,True,,,93.51
+298,Szymon,Pogoda,1985-09-22,Bolesławiec,wyższe,menedżer,PiS,1,Legnica,dolnośląskie,10117,True,,,94.85
+299,Jerzy,Polaczek,1961-08-24,Piekary Śląskie,wyższe,prawnik,PiS,31,Katowice,śląskie,5996,True,,,94.85
+300,Elżbieta,Polak,1959-09-06,Przemków,wyższe,administratywista,KO,8,Zielona Góra,lubuskie,78475,True,,,93.74
+301,Piotr,Polak,1961-01-20,Grabinka,wyższe,inżynier mechanizacji rolnictwa,PiS,11,Sieradz,łódzkie,23845,True,,,97.76
+302,Agnieszka,Pomaska,1980-01-08,Gdynia,wyższe,politolog,KO,25,Gdańsk,pomorskie,83590,True,,,98.66
+303,Marcin,Porzucek,1984-07-20,Kielce,wyższe,politolog,PiS,38,Piła,wielkopolskie,28293,True,,,97.09
+304,Jacek,Protas,1964-01-15,Lidzbark Warmiński,wyższe,"nauczyciel, trener",KO,34,Elbląg,warmińsko-mazurskie,35745,True,,,99.11
+305,Marcin,Przydacz,1985-06-26,Wieluń,wyższe,adwokat,PiS,11,Sieradz,łódzkie,30423,True,,,91.5
+306,Grzegorz,Puda,1982-07-13,Bielsko-Biała,wyższe,menedżer marketingu,PiS,27,Bielsko-Biała,śląskie,33728,True,,,97.09
+307,Michał,Pyrzyk,1975-06-07,Poznań,wyższe,prawnik,PSL-TD,37,Konin,wielkopolskie,10304,True,,,100.0
+308,Renata,Rak,1973-06-29,Szczecinek,wyższe,nauczyciel,KO,40,Koszalin,zachodniopomorskie,9170,True,,,98.88
+309,Ireneusz,Raś,1972-09-30,Proszowice,wyższe,urzędnik samorządowy,PSL-TD,13,Kraków,małopolskie,27518,True,,,79.64
+310,Zbigniew,Rau,1955-02-03,Łódź,wyższe,nauczyciel akademicki,PiS,9,Łódź,łódzkie,32387,True,,,89.49
+311,Marcin,Romanowski,1976-01-20,Skrwilno,wyższe,"nauczyciel akademicki, prawnik",PiS,7,Chełm,lubelskie,17318,True,,,71.36
+312,Bartosz,Romowicz,1988-06-14,Lesko,wyższe,prawnik,Polska2050-TD,22,Krosno,podkarpackie,21527,True,,,99.78
+313,Monika,Rosa,1986-04-24,Czeladź,wyższe,politolog,KO,31,Katowice,śląskie,44857,True,,,100.0
+314,Wiesław,Różyński,1968-06-26,Biłgoraj,wyższe,pracownik administracji samorządowej,PSL-TD,7,Chełm,lubelskie,17237,True,,,98.88
+315,Urszula,Rusecka,1966-09-11,Kraków,wyższe,"ekonomista, pracownik samorządowy",PiS,15,Tarnów,małopolskie,17080,True,,,80.31
+316,Grzegorz,Rusiecki,1983-02-28,Leszno,wyższe,prawnik,KO,36,Kalisz,wielkopolskie,22410,False,Zrzeczenie,Wybrany na funkcję Prezydenta Miasta Leszna,97.59
+317,Jakub,Rutnicki,1978-12-03,Szamotuły,wyższe,politolog,KO,38,Piła,wielkopolskie,67069,True,,,100.0
+318,Paweł,Rychlik,1986-12-16,Wieluń,wyższe,farmaceuta,PiS,11,Sieradz,łódzkie,27361,True,,,87.02
+319,Marek,Rząsa,1957-10-04,Rzeszów,wyższe,nauczyciel,KO,22,Krosno,podkarpackie,13510,True,,,100.0
+320,Jarosław,Rzepa,1972-08-22,Szamotuły,wyższe,inżynier ogrodnik,PSL-TD,41,Szczecin,zachodniopomorskie,21309,True,,,89.49
+321,Jarosław,Sachajko,1971-10-08,Lublin,wyższe,przedsiębiorca prywatny,Kukiz15,7,Chełm,lubelskie,33727,True,,,94.85
+322,Paweł,Sałek,1975-06-29,Skierniewice,wyższe,"inżynier mechanik, urzędnik państwowy",PiS,10,Piotrków Trybunalski,łódzkie,15200,True,,,96.42
+323,Wojciech,Saługa,1969-03-27,Jaworzno,wyższe,ekonomista,KO,32,Katowice,śląskie,28781,False,Zrzeczenie,Wybrany na funkcję Marszałka Województwa Śląskiego,94.09
+324,Tadeusz,Samborski,1945-08-08,Gańczary K. Lwowa,wyższe,historyk,PSL-TD,1,Legnica,dolnośląskie,16120,True,,,98.66
+325,Jacek,Sasin,1969-11-06,Warszawa,wyższe,urzędnik państwowy,PiS,24,Białystok,podlaskie,59490,True,,,83.67
+326,Marek,Sawicki,1958-04-08,Sawice,wyższe,rolnik,PSL-TD,18,Siedlce,mazowieckie,25534,True,,,98.21
+327,Ewa,Schädler,1968-09-13,Poznań,wyższe,przedsiębiorca prywatny,Polska2050-TD,39,Poznań,wielkopolskie,33815,True,,,98.66
+328,Joanna,Scheuring-Wielgus,1972-02-08,Toruń,wyższe,socjolog,Lewica,5,Toruń,kujawsko-pomorskie,35193,True,,,95.75
+329,Anna,Schmidt,1978-11-11,Jarosław,wyższe,socjolog,PiS,22,Krosno,podkarpackie,28692,True,,,76.51
+330,Łukasz,Schreiber,1987-05-26,Bydgoszcz,wyższe,urzędnik państwowy,PiS,4,Bydgoszcz,kujawsko-pomorskie,44413,True,,,95.75
+331,Jarosław,Sellin,1963-05-01,Gdynia,wyższe,nauczyciel akademicki,PiS,25,Gdańsk,pomorskie,7284,True,,,96.42
+332,Olga,Semeniuk-Patkowska,1988-12-05,Warszawa,wyższe,wyższy urzędnik państwowy,PiS,35,Olsztyn,warmińsko-mazurskie,14183,True,,,95.3
+333,Edward,Siarka,1963-07-07,Rabka,wyższe,nauczyciel,PiS,14,Nowy Sącz,małopolskie,18587,True,,,86.35
+334,Krystyna,Sibińska,1962-06-12,Złocieniec,wyższe,inżynier budownictwa,KO,8,Zielona Góra,lubuskie,19415,True,,,100.0
+335,Czesław,Siekierski,1952-10-08,Stopnica,wyższe,nauczyciel akademicki,PSL-TD,33,Kielce,świętokrzyskie,21916,True,,,88.14
+336,Rafał,Siemaszko,1986-09-11,Wejherowo,średnie zawodowe,,KO,26,Słupsk,pomorskie,15494,True,,,100.0
+337,Tomasz,Siemoniak,1967-07-02,Wałbrzych,wyższe,ekonomista,KO,21,Opole,opolskie,46223,True,,,99.78
+338,Bartłomiej,Sienkiewicz,1961-07-29,Kielce,wyższe,"archiwista, historyk",KO,13,Kraków,małopolskie,95873,True,,,82.77
+339,Arkadiusz,Sikora,1973-06-20,Głubczyce,wyższe,ekonomista,Lewica,1,Legnica,dolnośląskie,12048,True,,,89.49
+340,Włodzimierz,Skalik,1959-06-10,Radomsko,średnie policealne/pomaturalne,,Konfederacja,21,Opole,opolskie,15190,True,,,90.83
+341,Marcin,Skonieczka,1978-11-09,Chełmno,wyższe,"ekonomista, urzędnik samorządowy",Polska2050-TD,5,Toruń,kujawsko-pomorskie,11864,True,,,99.78
+342,Krystyna,Skowrońska,1954-07-22,Mielec,wyższe,bankowiec,KO,23,Rzeszów,podkarpackie,14901,True,,,100.0
+343,Sławomir,Skwarek,1963-11-25,Radzyń Podlaski,wyższe,nauczyciel,PiS,6,Lublin,lubelskie,12427,True,,,97.09
+344,Waldemar,Sługocki,1971-09-09,Sulechów,wyższe,"nauczyciel akademicki, urzędnik",KO,8,Zielona Góra,lubuskie,25037,True,,,89.71
+345,Weronika,Smarduch,1990-04-08,Rabka-Zdrój,wyższe,ekspert ds. kontrolingu,KO,14,Nowy Sącz,małopolskie,27031,True,,,99.55
+346,Kazimierz,Smoliński,1955-07-15,Malbork,wyższe,adwokat,PiS,25,Gdańsk,pomorskie,16177,True,,,97.09
+347,Anna,Sobolak,1979-11-02,Lublin,wyższe,,KO,3,Wrocław,dolnośląskie,7675,True,,,98.88
+348,Krzysztof,Sobolewski,1978-09-20,Radymno,wyższe,administratywista,PiS,23,Rzeszów,podkarpackie,18390,True,,,87.92
+349,Artur,Soboń,1977-03-13,Świdnik,wyższe,pracownik samorządowy,PiS,6,Lublin,lubelskie,32357,False,Zrzeczenie,Powołany na członka Zarządu Narodowego Banku Polskiego,54.0
+350,Agnieszka,Soin,1977-02-09,Szczytno,wyższe,parlamentarzysta,PiS,3,Wrocław,dolnośląskie,18645,True,,,76.51
+351,Zbigniew,Sosnowski,1963-12-10,Rypin,wyższe,nauczyciel,PSL-TD,5,Toruń,kujawsko-pomorskie,27070,True,,,99.55
+352,Marek,Sowa,1967-02-04,Libiąż,wyższe,wyższy urzędnik państwowy,KO,12,Kraków,małopolskie,24652,True,,,99.55
+353,Katarzyna,Sójka,1986-02-05,Ostrów Wielkopolski,wyższe,lekarz - specjalista chorób wewnętrznych,PiS,36,Kalisz,wielkopolskie,18138,True,,,93.51
+354,Magdalena,Sroka,1979-07-15,Gdańsk,wyższe,menedżer,PSL-TD,25,Gdańsk,pomorskie,18348,True,,,99.33
+355,Mirosława,Stachowiak-Różecka,1973-07-08,Świebodzin,wyższe,pedagog specjalny,PiS,3,Wrocław,dolnośląskie,97193,True,,,97.09
+356,Dariusz,Stefaniuk,1981-05-10,Biała Podlaska,wyższe,politolog,PiS,7,Chełm,lubelskie,29710,True,,,89.49
+357,Franciszek,Sterczewski,1988-03-17,Poznań,wyższe,architekt,KO,39,Poznań,wielkopolskie,10108,True,,,99.78
+358,Piotr,Strach,1982-01-10,Częstochowa,wyższe,"menedżer, nauczyciel",Polska2050-TD,29,Katowice,śląskie,17634,True,,,99.78
+359,Mirosław,Suchoń,1976-01-10,Bielsko-Biała,wyższe,"ekonomista, informatyk",Polska2050-TD,27,Bielsko-Biała,śląskie,30897,True,,,99.78
+360,Marek,Suski,1958-06-11,Grójec,średnie policealne/pomaturalne,specjalista ds. marketingu,PiS,17,Radom,mazowieckie,37853,True,,,94.85
+361,Paweł,Suski,1964-06-10,Wałcz,wyższe,parlamentarzysta,KO,40,Koszalin,zachodniopomorskie,5934,True,,,99.33
+362,Artur,Szałabawka,1967-10-03,Szczecin,wyższe,pracownik administracji państwowej,PiS,41,Szczecin,zachodniopomorskie,15446,True,,,91.72
+363,Wojciech,Szarama,1955-12-16,Bytom,wyższe,adwokat,PiS,29,Katowice,śląskie,12185,True,,,81.66
+364,Wiesław,Szczepański,1960-06-01,Chrośnica,wyższe,ekonomista,Lewica,36,Kalisz,wielkopolskie,13668,True,,,99.55
+365,Michał,Szczerba,1977-12-14,Warszawa,wyższe,urzędnik państwowy,KO,19,Warszawa,mazowieckie,28653,True,,,97.32
+366,Krzysztof,Szczucki,1986-10-18,Elbląg,wyższe,prawnik,PiS,5,Toruń,kujawsko-pomorskie,34014,True,,,86.58
+367,Józefa,Szczurek-Żelazko,1961-03-14,Nowy Sącz,wyższe,"menedżer, parlamentarzysta",PiS,15,Tarnów,małopolskie,26231,True,,,88.81
+368,Paweł,Szefernaker,1987-02-27,Szczecin,wyższe,prawnik,PiS,40,Koszalin,zachodniopomorskie,29764,True,,,92.17
+369,Andrzej,Szejna,1973-04-28,Końskie,wyższe,adwokat,Lewica,33,Kielce,świętokrzyskie,17961,True,,,89.04
+370,Andrzej,Szewiński,1970-02-20,Warszawa,wyższe,"parlamentarzysta, pedagog, przedsiębiorca prywatny, sportowiec, urzędnik samorządowy",KO,28,Częstochowa,śląskie,10171,True,,,98.21
+371,Adam,Szłapka,1984-12-06,Kościan,wyższe,politolog,KO,39,Poznań,wielkopolskie,149064,True,,,95.08
+372,Henryk,Szopiński,1962-09-15,Złotów,wyższe,"animator kultury, muzyk",KO,38,Piła,wielkopolskie,8263,True,,,99.78
+373,Paweł,Szrot,1975-06-30,Białystok,wyższe,"prawnik, wyższy urzędnik państwowy",PiS,4,Bydgoszcz,kujawsko-pomorskie,20214,True,,,95.75
+374,Krystyna,Szumilas,1956-06-28,Knurów,wyższe,nauczyciel,KO,29,Katowice,śląskie,50871,True,,,98.43
+375,Stanisław,Szwed,1955-04-12,Bielsko-Biała,wyższe,parlamentarzysta,PiS,27,Bielsko-Biała,śląskie,57055,True,,,98.21
+376,Ewa,Szymanowska,1978-05-30,Łódź,wyższe,"menedżer marketingu, public relations",Polska2050-TD,9,Łódź,łódzkie,26185,True,,,99.11
+377,Tomasz,Szymański,1978-04-24,Grudziądz,wyższe,"parlamentarzysta, pracownik administracji samorządowej",KO,5,Toruń,kujawsko-pomorskie,17825,True,,,87.92
+378,Szymon,Szynkowski vel Sęk,1982-11-24,Poznań,wyższe,wyższy urzędnik państwowy,PiS,39,Poznań,wielkopolskie,45167,True,,,85.46
+379,Łukasz,Ściebiorowski,1980-03-13,Piekary Śląskie,wyższe,politolog,KO,31,Katowice,śląskie,7116,True,,,97.76
+380,Agnieszka,Ścigaj,1975-12-22,Kraków,wyższe,"doradca, pracownik socjalny, wykładowca",PiS,13,Kraków,małopolskie,6262,True,,,50.78
+381,Andrzej,Śliwka,1988-10-12,Pasłęk,wyższe,radca prawny,PiS,34,Elbląg,warmińsko-mazurskie,32895,True,,,95.75
+382,Paweł,Śliz,1980-09-18,Kraków,wyższe,adwokat,Polska2050-TD,12,Kraków,małopolskie,19630,True,,,99.33
+383,Krzysztof,Śmiszek,1979-08-25,Stalowa Wola,wyższe,prawnik,Lewica,3,Wrocław,dolnośląskie,34577,True,,,94.41
+384,Jacek,Świat,1955-12-16,Wrocław,wyższe,"parlamentarzysta, specjalista ds. marketingu",PiS,3,Wrocław,dolnośląskie,13663,True,,,91.28
+385,Apoloniusz,Tajner,1954-04-17,Cieszyn,wyższe,"nauczyciel, trener",KO,27,Bielsko-Biała,śląskie,20748,True,,,100.0
+386,Krzysztof,Tchórzewski,1950-05-19,Rzążew,wyższe,"ekonomista, inżynier elektryk",PiS,18,Siedlce,mazowieckie,25867,True,,,97.54
+387,Robert,Telus,1969-04-18,Opoczno,wyższe,urzędnik państwowy,PiS,10,Piotrków Trybunalski,łódzkie,49262,True,,,95.75
+388,Ryszard,Terlecki,1949-09-02,Kraków,wyższe,historyk,PiS,14,Nowy Sącz,małopolskie,29882,True,,,93.06
+389,Tadeusz,Tomaszewski,1959-02-21,Niechanowo,wyższe,ekonomista,Lewica,37,Konin,wielkopolskie,17181,True,,,99.78
+390,Jacek,Tomczak,1973-07-27,Poznań,wyższe,"notariusz, radca prawny",PSL-TD,39,Poznań,wielkopolskie,24918,True,,,85.23
+391,Wioleta,Tomczak,1988-04-21,Gdynia,wyższe,specjalista ds. zdrowia publicznego,Polska2050-TD,26,Słupsk,pomorskie,13217,True,,,99.78
+392,Cezary,Tomczyk,1984-08-25,Gryfice,wyższe,politolog,KO,11,Sieradz,łódzkie,69211,True,,,92.17
+393,Stanisław,Tomczyszyn,1959-08-26,Żagań,wyższe,nauczyciel,PSL-TD,8,Zielona Góra,lubuskie,10332,True,,,99.78
+394,Małgorzata,Tracz,1985-12-08,Bolesławiec,wyższe,"filolog, specjalista ds. szkoleń",KO,3,Wrocław,dolnośląskie,17693,True,,,99.78
+395,Tomasz,Trela,1979-12-30,Łódź,wyższe,ekonomista,Lewica,9,Łódź,łódzkie,26273,True,,,100.0
+396,Krzysztof,Truskolaski,1990-07-25,Białystok,wyższe,ekonomista,KO,24,Białystok,podlaskie,57664,True,,,93.29
+397,Krzysztof,Tuduj,1981-04-25,Warszawa,wyższe,prawnik,Konfederacja,3,Wrocław,dolnośląskie,25922,True,,,89.49
+398,Sylwester,Tułajew,1981-12-30,Lublin,wyższe,informatyk,PiS,6,Lublin,lubelskie,10228,True,,,99.78
+399,Witold,Tumanowicz,1986-11-04,Lublin,średnie ogólne,zawodowy działacz organizacji polityczne,Konfederacja,7,Chełm,lubelskie,14387,True,,,99.78
+400,Donald,Tusk,1957-04-22,Gdańsk,wyższe,nauczyciel,KO,19,Warszawa,mazowieckie,538634,True,,,53.47
+401,Stanisław,Tyszka,1979-04-11,Warszawa,wyższe,nauczyciel akademicki,Konfederacja,26,Słupsk,pomorskie,19753,True,,,79.64
+402,Katarzyna,Ueberhan,1975-08-26,Poznań,wyższe,filozof,Lewica,39,Poznań,wielkopolskie,24485,True,,,98.21
+403,Jarosław,Urbaniak,1966-08-07,Ostrów Wielkopolski,wyższe,menedżer,KO,36,Kalisz,wielkopolskie,50724,True,,,73.83
+404,Piotr,Uruski,1976-08-11,Sanok,wyższe,"historyk, nauczyciel akademicki",PiS,22,Krosno,podkarpackie,22703,True,,,88.14
+405,Piotr,Uściński,1977-05-20,Warszawa,wyższe,"elektronik, menedżer, parlamentarzysta",PiS,20,Warszawa,mazowieckie,15006,True,,,95.75
+406,Jarosław,Wałęsa,1976-09-13,Gdańsk,wyższe,politolog,KO,25,Gdańsk,pomorskie,17408,True,,,100.0
+407,Marcin,Warchoł,1980-07-13,Nisko,wyższe,adwokat,PiS,23,Rzeszów,podkarpackie,26750,True,,,88.81
+408,Robert,Wardzała,1975-10-12,Tarnów,wyższe,menedżer,KO,15,Tarnów,małopolskie,9265,True,,,99.55
+409,Robert,Warwas,1976-08-13,Jaworzno,wyższe,politolog,PiS,32,Katowice,śląskie,17403,True,,,99.78
+410,Jan,Warzecha,1959-04-21,Jodłowa,wyższe,pracownik samorządowy,PiS,23,Rzeszów,podkarpackie,14023,True,,,98.88
+411,Małgorzata,Wassermann,1978-03-16,Kraków,wyższe,adwokat,PiS,13,Kraków,małopolskie,125786,True,,,98.66
+412,Michał,Wawer,1989-04-01,Warszawa,wyższe,radca prawny,Konfederacja,33,Kielce,świętokrzyskie,18300,True,,,99.78
+413,Maciej,Wąsik,1969-10-16,Warszawa,wyższe,archeolog,PiS,16,Płock,mazowieckie,24033,False,,Utrata prawa wybieralności,87.76
+414,Marta,Wcisło,1969-02-26,Kraśnik,wyższe,"menedżer, przedsiębiorca prywatny",KO,6,Lublin,lubelskie,68449,True,,,97.09
+415,Rafał,Weber,1981-09-01,Tarnobrzeg,wyższe,prawnik,PiS,23,Rzeszów,podkarpackie,31349,True,,,88.14
+416,Marek,Wesoły,1972-05-03,Ruda Śląska,wyższe,"nauczyciel, przedsiębiorca prywatny",PiS,31,Katowice,śląskie,9915,True,,,92.62
+417,Joanna,Wicha,1966-10-09,Biała Podlaska,wyższe,"pielęgniarka, socjolog",Lewica,20,Warszawa,mazowieckie,15324,True,,,98.43
+418,Patryk,Wicher,1986-03-09,Nowy Sącz,wyższe,"menedżer, politolog",PiS,14,Nowy Sącz,małopolskie,18604,True,,,86.13
+419,Dariusz,Wieczorek,1965-05-23,Szczecin,wyższe,inżynier elektryk,Lewica,41,Szczecin,zachodniopomorskie,15378,True,,,99.78
+420,Jarosław,Wieczorek,1981-01-27,Gliwice,wyższe,,PiS,29,Katowice,śląskie,23451,True,,,95.08
+421,Monika,Wielichowska,1973-10-04,Nowa Ruda,wyższe,"dziennikarz, ekonomista, pracownik samorządowy",KO,2,Wałbrzych,dolnośląskie,52182,True,,,99.78
+422,Ryszard,Wilk,1987-03-24,Krynica-Zdrój,wyższe,przedsiębiorca prywatny,Konfederacja,14,Nowy Sącz,małopolskie,19374,True,,,74.05
+423,Teresa,Wilk,1952-10-29,Elbląg,średnie policealne/pomaturalne,ekonomista,PiS,34,Elbląg,warmińsko-mazurskie,9280,True,,,90.83
+424,Przemysław,Wipler,1978-07-15,Piekary Śląskie,wyższe,"prawnik, przedsiębiorca prywatny",Konfederacja,5,Toruń,kujawsko-pomorskie,13457,True,,,79.64
+425,Aleksandra,Wiśniewska,1994-05-27,Łódź,wyższe,politolog,KO,9,Łódź,łódzkie,25436,True,,,97.54
+426,Adrian,Witczak,1991-03-20,Tomaszów Mazowiecki,wyższe,nauczyciel,KO,10,Piotrków Trybunalski,łódzkie,16287,True,,,98.88
+427,Mariusz,Witczak,1971-04-14,Koźminek,wyższe,"politolog, polityk",KO,36,Kalisz,wielkopolskie,12754,True,,,99.78
+428,Elżbieta,Witek,1957-12-17,Jawor,wyższe,nauczyciel,PiS,1,Legnica,dolnośląskie,89172,True,,,78.3
+429,Przemysław,Witek,1978-03-16,Lubliniec,wyższe,urzędnik państwowy,KO,28,Częstochowa,śląskie,5121,True,,,93.06
+430,Kamil,Wnuk,1984-05-22,Sosnowiec,średnie ogólne,politolog,Polska2050-TD,32,Katowice,śląskie,16310,True,,,89.71
+431,Anna,Wojciechowska,1960-02-29,Suwałki,wyższe,"doradca finansowy, pracownik administracji samorządowej",KO,35,Olsztyn,warmińsko-mazurskie,18828,True,,,99.78
+432,Agnieszka,Wojciechowska van Heukelom,1964-08-30,Łódź,wyższe,filolog,PiS,9,Łódź,łódzkie,10557,True,,,89.49
+433,Agata,Wojtyszek,1967-10-23,Starachowice,wyższe,nauczyciel,PiS,33,Kielce,świętokrzyskie,15405,True,,,93.51
+434,Bogusław,Wołoszański,1950-03-22,Piotrków Trybunalski,wyższe,dziennikarz,KO,10,Piotrków Trybunalski,łódzkie,35202,True,,,89.71
+435,Michał,Woś,1991-02-08,Racibórz,wyższe,prawnik,PiS,30,Bielsko-Biała,śląskie,39902,True,,,86.13
+436,Grzegorz,Woźniak,1968-12-18,Garwolin,wyższe,menedżer,PiS,18,Siedlce,mazowieckie,9088,True,,,87.02
+437,Tadeusz,Woźniak,1960-01-15,Kutno,wyższe,"nauczyciel, parlamentarzysta",PiS,11,Sieradz,łódzkie,19691,True,,,98.21
+438,Michał,Wójcik,1971-04-17,Kraków,wyższe,prawnik,PiS,31,Katowice,śląskie,8270,True,,,95.75
+439,Maciej,Wróbel,1983-10-16,Giżycko,wyższe,dziennikarz,KO,35,Olsztyn,warmińsko-mazurskie,9837,True,,,100.0
+440,Bartłomiej,Wróblewski,1975-03-13,Poznań,wyższe,nauczyciel akademicki,PiS,39,Poznań,wielkopolskie,28860,True,,,82.55
+441,Paweł,Zalewski,1964-09-25,Warszawa,wyższe,konsultant,Polska2050-TD,20,Warszawa,mazowieckie,35395,True,,,95.08
+442,Adrian,Zandberg,1979-12-04,"Aalborg, Dania",wyższe,programista,Lewica,19,Warszawa,mazowieckie,64435,True,,,97.54
+443,Andrzej,Zapałowski,1966-11-06,Wałbrzych,wyższe,nauczyciel akademicki,Konfederacja,22,Krosno,podkarpackie,14475,True,,,94.18
+444,Bartosz,Zawieja,1978-03-02,Poznań,wyższe,urzędnik samorządowy,KO,39,Poznań,wielkopolskie,9103,True,,,100.0
+445,Marcelina,Zawisza,1989-05-03,Katowice,wyższe,polityk,Lewica,21,Opole,opolskie,19388,True,,,86.35
+446,Sławomir,Zawiślak,1963-06-09,Krasnobród,wyższe,parlamentarzysta,PiS,7,Chełm,lubelskie,10936,True,,,87.92
+447,Bogdan,Zdrojewski,1957-05-18,Kłodzko,wyższe,"filozof, polityk, kulturoznawca",KO,3,Wrocław,dolnośląskie,85099,True,,,99.78
+448,Witold,Zembaczyński,1980-12-28,Opole,wyższe,politolog,KO,21,Opole,opolskie,23647,True,,,100.0
+449,Piotr,Zgorzelski,1963-09-17,Płock,wyższe,urzędnik samorządowy,PSL-TD,16,Płock,mazowieckie,32011,True,,,97.76
+450,Zbigniew,Ziejewski,1958-11-28,Morąg,wyższe,inżynier rolnik,PSL-TD,34,Elbląg,warmińsko-mazurskie,12695,True,,,91.28
+451,Urszula,Zielińska,1977-10-03,Warszawa,wyższe,menedżer marketingu,KO,19,Warszawa,mazowieckie,16470,True,,,97.99
+452,Jarosław,Zieliński,1960-09-20,Szwajcaria,wyższe,"nauczyciel, parlamentarzysta",PiS,24,Białystok,podlaskie,20812,True,,,98.66
+453,Tomasz,Zieliński,1967-07-20,Józefów,wyższe,historyk,PiS,7,Chełm,lubelskie,13469,True,,,94.85
+454,Jolanta,Zięba-Gzik,1975-10-13,Sieradz,wyższe,specjalista ds. zarządzania,PSL-TD,11,Sieradz,łódzkie,10474,True,,,100.0
+455,Tomasz,Zimoch,1957-10-30,Łódź,wyższe,"dziennikarz, prawnik",Polska2050-TD,3,Wrocław,dolnośląskie,34187,True,,,98.66
+456,Zbigniew,Ziobro,1970-08-18,Kraków,wyższe,prawnik,PiS,23,Rzeszów,podkarpackie,74592,True,,,9.17
+457,Wojciech,Zubowski,1979-11-12,Wrocław,wyższe,parlamentarzysta,PiS,1,Legnica,dolnośląskie,8527,True,,,98.66
+458,Ireneusz,Zyska,1969-08-05,Świebodzice,wyższe,"menedżer, radca prawny, parlamentarzysta",PiS,2,Wałbrzych,dolnośląskie,11817,True,,,97.09
+459,Bożena,Żelazowska,1970-08-23,Chełm,wyższe,politolog,PSL-TD,20,Warszawa,mazowieckie,17416,True,,,99.11
+460,Anna,Żukowska,1983-06-11,Warszawa,wyższe,prawnik,Lewica,19,Warszawa,mazowieckie,38426,True,,,92.84
+461,Anna,Baluch,1973-06-03,Kraśnik,wyższe,urzędnik samorządowy,PiS,6,Lublin,lubelskie,7686,True,,,91.47
+462,Magdalena,Łośko,1984-08-30,Inowrocław,wyższe,pedagog,KO,4,Bydgoszcz,kujawsko-pomorskie,4864,True,,,100.0
+463,Monika,Pawłowska,1983-06-15,Ryki,wyższe,specjalista do spraw stosunków międzynarodowych,niez.,7,Chełm,lubelskie,10789,True,,,100.0
+464,Alicja,Łuczak,1961-06-17,Stawiszyn,wyższe,nauczycielka,KO,36,Kalisz,wielkopolskie,5186,True,,,99.14
+465,Dominik,Jaśkowiec,1977-06-12,Kraków,wyższe,nauczyciel akademicki,KO,13,Kraków,małopolskie,6093,True,,,100.0
+466,Paweł,Masełko,1980-07-07,Głubczyce,wyższe,nauczyciel,KO,21,Opole,opolskie,8322,True,,,97.85
+467,Katarzyna,Stachowicz,1977-07-18,Sosnowiec,wyższe,menedżer,KO,32,Katowice,śląskie,10060,True,,,100.0
