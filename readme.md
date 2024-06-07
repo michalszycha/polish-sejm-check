@@ -35,9 +35,14 @@ python etl_polish_sejm.py <term>
 ```
 `<term>` jest kadencją dla której mają zostać pobrane dane. Nie podając tego argumenty program zostanie wykonany dla bieżącej, dziesiątej kadencji.
 
-Po przygotowaniu danych należy otworzyć plik `.pbix`. Aby odświeżyć dane użyte w dashboardzie należy kliknać przycisk `Refresh` (nazwa różni się od zainstalowanej wersji językowej).
 
-Zmieniając źródło danych w zapytaniach w programie Power BI jest możliwe przygotowanie dashboardów dla innych kadencji. Po wcześniejszym uruchomieniu skrypty dla wybranej kadencji.
+##Przygotowanie dashboardu
+Po przygotowaniu danych należy otworzyć plik `.pbix`. Power BI wymaga podania ścieżki bezwzględnej do danych. Aby to zrobić należy:
+1. Kliknij `Przekształć dane`.
+2. Dla każdego z zapytań zmienić zawartość kroku `FilePath` na ścieżkę do odpowiedniego pliku, odpowiednio:
+   1. Dla zapytania `mps` podaj ścieżkę do pliku `.../polish-sejm-check/cache/mps_term<term>.csv`
+   2. Dla zapytania `voting` podaj ścieżkę do pliku `.../polish-sejm-check/cache/voting_term<term>.csv`
+   3. Dla zapytania `voting_per_mp` podaj ścieżkę do pliku `.../polish-sejm-check/cache/voting_per_mp_term<term>.csv`
 
 
 ##Link
