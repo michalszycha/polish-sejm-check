@@ -17,11 +17,20 @@ def plot_mps_voting(voting: pd.DataFrame):
     vote_counts = voting['vote'].value_counts()
     st.write(vote_counts)
 
+    color_map = {
+        'YES': 'blue',  # 'yes' will always be blue
+        'NO': 'red',  # 'no' will always be red
+        'ABSTAIN': 'yellow',  # 'abstain' will always be yellow
+        'ABSENT': 'grey'  # 'absent' will always be grey
+    }
+    colors = [color_map[label] for label in vote_counts.keys()]
+
     fig, ax = plt.subplots()
     ax.pie(
         vote_counts,
         labels=vote_counts.keys(),
         autopct='%1.2f%%',
+        colors=colors,
     )
     fig.patch.set_alpha(1)
     return fig
