@@ -16,6 +16,7 @@ def prepare_voting(sittings: pd.DataFrame) -> pd.DataFrame:
     voting = loop.run_until_complete(get_voting(sittings_numbers))
 
     voting = Transform.add_id_column(voting)
+    voting = Transform.add_percent_of_yes_column(voting)
     voting = Transform.change_columns_order(voting)
 
     return voting

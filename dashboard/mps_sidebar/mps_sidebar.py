@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import datetime
 
 
 def filtered_mps_table(mps: pd.DataFrame):
@@ -16,3 +17,4 @@ def filtered_mps_table(mps: pd.DataFrame):
         filtered_mps = mps
 
     st.dataframe(data=filtered_mps, hide_index=True)
+    st.write(f"Liczba posłów/posłanek z wybranych parti: {len(filtered_mps)}")
