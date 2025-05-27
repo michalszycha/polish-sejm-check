@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
+import re
 
 
 def add_id_column(voting: pd.DataFrame) -> pd.DataFrame:
@@ -63,6 +65,7 @@ def change_columns_order(voting: pd.DataFrame) -> pd.DataFrame:
             'abstain',
             'votingOptions',
             'votes',
+            'percentOfYes',
         ]
     ]
 
@@ -84,3 +87,29 @@ def change_columns_in_voting_per_mp(voting: pd.DataFrame) -> pd.DataFrame:
             'vote',
         ]
     ]
+
+
+def add_percent_of_yes_column(voting: pd.DataFrame) -> pd.DataFrame:
+    voting['percentOfYes'] = np.where(
+        voting['totalVoted'] == 0, 0,
+        np.round(voting['yes'] / voting['totalVoted'] * 100, 2)
+    )
+    return voting
+
+
+def add_vote_option_count(voting: pd.DataFrame, voting_per_mp: pd.DataFrame):
+    voting_on_list = voting_per_mp[voting_per_mp['kind'] == 'ON_LIST']
+    voting_on_list.loc[:, 'vote'] = voting_on_list['vote'].apply(lambda x: tuple(x) if isinstance(x, list) else x)
+
+    voting_on_list.loc[voting_on_list['vote'] == (), 'vote'] = 'ABSTAIN'
+    voting_on_list.loc[:, 'vote'] = voting_on_list['vote'].apply(lambda x: x[0] if len(x) == 1 else x)
+
+    options_value_counts = voting_on_list.groupby('votingId')['vote'].value_counts().reset_index()
+
+    grouped_options_value_counts = (
+        options_value_counts.groupby('votingId')
+        .apply(lambda group: {row['vote']: row['count'] for _, row in group.iterrows()})
+        .reset_index(name='voteOptionCount')
+    )
+    grouped_options_value_counts = grouped_options_value_counts.rename(columns={'votingId': 'id'})
+    return voting.merge(grouped_options_value_counts, how='left', on='id')
