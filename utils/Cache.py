@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 
-def cache_value(file: str, prefix: str, operation, *args, purge: bool = True):
+def cache_data(file: str, prefix: str, operation, *args, purge: bool = True):
     if not os.path.exists("./cache"):
         os.makedirs("./cache")
 
