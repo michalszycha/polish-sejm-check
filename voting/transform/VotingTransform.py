@@ -1,5 +1,5 @@
 import pandas as pd
-
+import numpy as np
 
 def add_id_column(voting: pd.DataFrame) -> pd.DataFrame:
     return voting.assign(id=range(1, len(voting) + 1))
@@ -63,6 +63,7 @@ def change_columns_order(voting: pd.DataFrame) -> pd.DataFrame:
             'abstain',
             'votingOptions',
             'votes',
+            'percentOfYes',
         ]
     ]
 
@@ -84,3 +85,11 @@ def change_columns_in_voting_per_mp(voting: pd.DataFrame) -> pd.DataFrame:
             'vote',
         ]
     ]
+
+
+def add_percent_of_yes_column(voting: pd.DataFrame) -> pd.DataFrame:
+    voting['percentOfYes'] = np.where(
+        voting['totalVoted'] == 0, 0,
+        np.round(voting['yes'] / voting['totalVoted'] * 100, 2)
+    )
+    return voting
