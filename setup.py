@@ -10,7 +10,8 @@ setup(
         'requests',
         'asyncio',
         'aiohttp',
-
+        'matplotlib',
+        'numpy',
     ],
     # You might need to include data files if your modules use them
     include_package_data=True,

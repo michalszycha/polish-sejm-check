@@ -17,6 +17,9 @@ def prepare_voting(sittings: pd.DataFrame) -> pd.DataFrame:
 
     voting = Transform.add_id_column(voting)
     voting = Transform.add_percent_of_yes_column(voting)
+    voting = Transform.add_percent_of_no_column(voting)
+    voting = Transform.add_percent_of_abstain_column(voting)
+    voting = Transform.add_percent_of_absent_column(voting)
     voting = Transform.change_columns_order(voting)
 
     return voting
