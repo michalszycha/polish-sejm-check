@@ -64,6 +64,9 @@ def change_columns_order(voting: pd.DataFrame) -> pd.DataFrame:
             'votingOptions',
             'votes',
             'percentOfYes',
+            'percentOfNo',
+            'percentOfAbstain',
+            'percentOfAbsent',
         ]
     ]
 
@@ -91,5 +94,26 @@ def add_percent_of_yes_column(voting: pd.DataFrame) -> pd.DataFrame:
     voting['percentOfYes'] = np.where(
         voting['totalVoted'] == 0, 0,
         np.round(voting['yes'] / voting['totalVoted'] * 100, 2)
+    )
+    return voting
+
+def add_percent_of_no_column(voting: pd.DataFrame) -> pd.DataFrame:
+    voting['percentOfNo'] = np.where(
+        voting['totalVoted'] == 0, 0,
+        np.round(voting['no'] / voting['totalVoted'] * 100, 2)
+    )
+    return voting
+
+def add_percent_of_abstain_column(voting: pd.DataFrame) -> pd.DataFrame:
+    voting['percentOfAbstain'] = np.where(
+        voting['totalVoted'] == 0, 0,
+        np.round(voting['abstain'] / voting['totalVoted'] * 100, 2)
+    )
+    return voting
+
+def add_percent_of_absent_column(voting: pd.DataFrame) -> pd.DataFrame:
+    voting['percentOfAbsent'] = np.where(
+        voting['totalVoted'] == 0, 0,
+        np.round(voting['notParticipating'] / 460 * 100, 2)
     )
     return voting
