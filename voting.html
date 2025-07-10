@@ -8024,7 +8024,18 @@ Sprawdzając tytuły i tematy głosowań możemy zidentyfikować które głosowa
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1f1788dedeaf8650">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4ab201ac5c057e94">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Istnieją głosowania których tematem (kolumna topic) jest <code>Głosowanie kworum</code>. Kworum oznacza minimalną liczbę osób do podjęcia decyzji. Może to sugerować że w takim głosowaniu posłowie nie oddają głosu <code>TAK</code> lub <code>NIE</code></p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2be94288-b6a9-471c-a934-741cbb048495">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8032,7 +8043,7 @@ Sprawdzając tytuły i tematy głosowań możemy zidentyfikować które głosowa
 <div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">non_yes_no_df</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">voting_df</span><span class="p">[</span><span class="n">voting_df</span><span class="o">.</span><span class="n">topic</span> <span class="o">==</span> <span class="s1">'Głosowanie kworum'</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
@@ -8045,288 +8056,8 @@ Sprawdzając tytuły i tematy głosowań możemy zidentyfikować które głosowa
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>array(['Pkt. 2 Poselskie projekty uchwał w sprawie ustalenia liczby Wicemarszałków Sejmu RP (druki nr 1 i 2)',
-       'Pkt. 4 Wybór sekretarzy Sejmu (druk nr 9)',
-       'Pkt. 5 Wybór składu osobowego Komisji Regulaminowej, Spraw Poselskich i Immunitetowych (druk nr 11)',
-       'Pkt. 6 Pierwsze czytanie przedstawionego przez Prezydium Sejmu projektu uchwały w sprawie ustalenia liczby członków Komisji do Spraw Służb Specjalnych (druk nr 10)',
-       'Pkt. 16 Pierwsze czytanie przedstawionego przez Prezydium Sejmu projektu uchwały w sprawie powołania i wyboru składu osobowego Komisji Nadzwyczajnej do spraw zmian w kodyfikacjach (druk nr 64)',
-       'Pkt. 17 Sprawozdanie Komisji o poselskim projekcie ustawy o zmianie ustawy o ograniczeniu handlu w niedziele i święta oraz niektóre inne dni (druki nr 63, 67 i 67-A)',
-       'Pkt. 26 Wybór uzupełniający do składu osobowego Komisji do Spraw Unii Europejskiej (druk nr 76)',
-       'Pkt. 33 Sprawozdanie Komisji o poselskim projekcie ustawy o zmianie ustaw w celu wsparcia odbiorców energii elektrycznej, paliw gazowych i ciepła oraz niektórych innych ustaw (druki nr 72, 72-A i 88)',
-       'Pkt. 32 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie powołania Komisji Śledczej do zbadania legalności, prawidłowości oraz celowości działań podjętych w celu przygotowania i przeprowadzenia wyborów Prezydenta Rzeczypospolitej Polskiej w 2020 roku w formie głosowania korespondencyjnego (druki nr 58 i 78)',
-       'Pkt. 39 Wybór uzupełniający do składu osobowego Komisji do Spraw Unii Europejskiej (druk nr 91)',
-       'Pkt. 35 Zmiany w składach osobowych komisji sejmowych (druk nr 89)',
-       'Pkt. 40 Wybór składu osobowego Komisji Śledczej do zbadania legalności, prawidłowości oraz celowości działań podjętych w celu przygotowania i przeprowadzenia wyborów Prezydenta Rzeczypospolitej Polskiej w 2020 roku w formie głosowania korespondencyjnego (druk nr 93)',
-       'Pkt. 43 Wybór uzupełniający do składu osobowego Komisji do Spraw Unii Europejskiej (druk nr ...)',
-       'Pkt. 44 Zmiany w składach osobowych komisji sejmowych (druk nr ...)',
-       'Pkt. 46 Sprawozdanie Komisji o poselskim projekcie ustawy o szczególnych rozwiązaniach w celu zachowania ważności niektórych orzeczeń o niepełnosprawności oraz orzeczeń o stopniu niepełnosprawności (druki nr 106 i 116)',
-       'Pkt. 54 Wybór składu osobowego Komisji Śledczej do zbadania legalności, prawidłowości oraz celowości działań, a także występowania nadużyć, zaniedbań i zaniechań w zakresie legalizacji pobytu cudzoziemców na terytorium Rzeczypospolitej Polskiej w okresie od dnia 12 listopada 2019 r. do dnia 20 listopada 2023 r. (druk nr 129)',
-       'Pkt. 57 Zmiany w składach osobowych komisji sejmowych (druk nr 137)',
-       'Pkt. 1 Zmiany w składach osobowych komisji sejmowych (druk nr 161)',
-       'Pkt. 2 Sprawozdanie Komisji o rządowym projekcie ustawy o szczególnych rozwiązaniach służących realizacji ustawy budżetowej na rok 2024 (druki nr 142, 143 i 143-A)',
-       'Pkt. 6 Zmiany w składach osobowych komisji sejmowych (druk nr 170)',
-       'Pkt. 7 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie powołania Komisji Śledczej do zbadania legalności, prawidłowości oraz celowości czynności operacyjno-rozpoznawczych podejmowanych m.in. z wykorzystaniem oprogramowania Pegasus przez członków Rady Ministrów, służby specjalne, Policję, organy kontroli skarbowej oraz celno-skarbowej w okresie od dnia 16 listopada 2015 r. do dnia 20 listopada 2023 r. (druki nr 57 i 79)',
-       'Pkt. 13 Pierwsze czytanie przedstawionego przez Prezydium Sejmu projektu uchwały w sprawie utworzenia Polskiej Grupy Unii Międzyparlamentarnej (druk nr 162)',
-       'Pkt. 2 Sprawozdanie Komisji o rządowym projekcie ustawy budżetowej na rok 2024 (druki nr 125, 144 i 144-A) - trzecie czytanie',
-       'Pkt. 8 Wybór składu osobowego Komisji Śledczej do zbadania legalności, prawidłowości oraz celowości czynności operacyjno-rozpoznawczych podejmowanych m.in. z wykorzystaniem oprogramowania Pegasus przez członków Rady Ministrów, służby specjalne, Policję, organy kontroli skarbowej oraz celno-skarbowej, organy powołane do ścigania przestępstw i prokuraturę w okresie od dnia 16 listopada 2015 r. do dnia 20 listopada 2023 r. (druk nr 184)',
-       'Pkt. 5 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie upamiętnienia Eugeniusza Romera w 70. rocznicę śmierci (druki nr 178 i 186)',
-       'Pkt. 17 Zmiany w składach osobowych komisji sejmowych (druk nr 198)',
-       'Pkt. 10 Wybór uzupełniający do składu osobowego Komisji Śledczej do zbadania legalności, prawidłowości oraz celowości działań podjętych w celu przygotowania i przeprowadzenia wyborów Prezydenta Rzeczypospolitej Polskiej w 2020 roku w formie głosowania korespondencyjnego (druk nr 220)',
-       'Pkt. 13 Zmiany w składach osobowych komisji sejmowych (druk nr 221)',
-       'Pkt. 9 Sprawozdanie Komisji o przedstawionym przez Prezydium Sejmu projekcie uchwały w sprawie nałożenia sankcji na import rosyjskiej i białoruskiej żywności i produktów rolnych do UE (druki nr 228 i 239)',
-       'Pkt. 15 Zmiany w składach osobowych komisji sejmowych (druk nr 240)',
-       'Pkt. 1 Zmiany w składach osobowych komisji sejmowych (druk nr 256)',
-       'Pkt. 3 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o rachunkowości oraz niektórych innych ustaw (druki nr 242 i 252)',
-       'Pkt. 4 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie upamiętnienia 90. rocznicy uchwalenia pierwszej ustawy o ochronie przyrody w Polsce (druki nr 234, 249 i 249-A)',
-       'Pkt. 11 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy - Prawo pocztowe oraz ustawy o zmianie ustawy - Prawo pocztowe (druki nr 265 i 266)',
-       'Pkt. 19 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy o rachunkowości oraz niektórych innych ustaw (druki nr 278 i 291)',
-       'Pkt. 7 Sprawozdanie Komisji o poselskim projekcie ustawy o zmianie ustawy o samorządzie gminnym oraz ustawy - Kodeks wyborczy (druki nr 75 i 287)',
-       'Pkt. 1 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o Krajowej Radzie Sądownictwa (druki nr 219, 280 i 280-A)',
-       'Pkt. 15 Sprawozdanie Komisji o rządowym projekcie ustawy o ratyfikacji Protokołu między Rzecząpospolitą Polską a Ukrainą o\xa0zmianie Umowy między Rzecząpospolitą Polską a Ukrainą o pomocy prawnej i\xa0stosunkach prawnych w sprawach cywilnych i karnych z dnia 24 maja 1993 r., podpisanego w Warszawie dnia 19 września 2023 r. (druki nr 231 i 251)',
-       'Pkt. 7 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o wspieraniu rodziny i systemie pieczy zastępczej oraz ustawy o promocji zatrudnienia i instytucjach rynku pracy (druki nr 293 i 312)',
-       'Pkt. 1 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie niektórych ustaw związanych z funkcjonowaniem administracji rządowej (druki nr 269, 269-A, 292 i 292-A)',
-       'Pkt. 12 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy o samorządzie gminnym oraz niektórych innych ustaw (druki nr 310 i 336)',
-       'Pkt. 11 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zapewnianiu spełniania wymagań dostępności niektórych produktów i usług przez podmioty gospodarcze (druki nr 309 i 334)',
-       'Pkt. 13 Zmiany w składach osobowych komisji sejmowych (druk nr 339)',
-       'Pkt. 25 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie niektórych ustaw związanych z funkcjonowaniem administracji rządowej (druki nr 377 i 383)',
-       'Pkt. 10 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o bonie energetycznym oraz o zmianie niektórych ustaw w celu ograniczenia cen energii elektrycznej, gazu ziemnego i ciepła systemowego (druki nr 416 i 417)',
-       'Pkt. 14 Wybór uzupełniający do składu osobowego Komisji Śledczej do zbadania legalności, prawidłowości oraz celowości działań podjętych w celu przygotowania i przeprowadzenia wyborów Prezydenta Rzeczypospolitej Polskiej w 2020 roku w formie głosowania korespondencyjnego (druk nr 457)',
-       'Pkt. 17 Zmiany w składach osobowych komisji sejmowych (druk nr 460)',
-       'Pkt. 4 Zmiany w składach osobowych komisji sejmowych (druk nr 488)',
-       'Pkt. 2 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o zapewnianiu dostępności osobom ze szczególnymi potrzebami (druki nr 430, 468 i 468-A)',
-       'Pkt. 13 Sprawozdanie Komisji o rządowym projekcie ustawy o ratyfikacji Zaawansowanej umowy ramowej między Unią Europejską i jej państwami członkowskimi, z jednej strony, a Republiką Chile, z drugiej strony, sporządzonej w Brukseli dnia 13 grudnia 2023 r. (druki nr 420 i 429)',
-       'Pkt. 4 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie niektórych ustaw w celu usprawnienia działań Sił Zbrojnych Rzeczypospolitej Polskiej, Policji oraz Straży Granicznej na wypadek zagrożenia bezpieczeństwa państwa (druki nr 471, 471-A i 505)',
-       'Pkt. 9 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie uczczenia 48. rocznicy protestów robotników przeciwko władzy komunistycznej w czerwcu 1976 r. w Radomiu, Ursusie i Płocku (druki nr 478 i 514)',
-       'Pkt. 10 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie 68. rocznicy Poznańskiego Czerwca 1956 (druki nr 480 i 515)',
-       'Pkt. 13 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy o Krajowej Radzie Sądownictwa (druki nr 378 i 510)',
-       'Pkt. 6 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o dochodzeniu roszczeń w postępowaniu grupowym oraz niektórych innych ustaw (druki nr 437 i 539)',
-       'Pkt. 9 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych (druki nr 546 i 551)',
-       'Pkt. 10 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o sporcie (druki nr 545 i 549)',
-       'Pkt. 11 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o dokumentach publicznych (druki nr 547 i 565)',
-       'Pkt. 12 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o publicznej służbie krwi (druki nr 548 i 563)',
-       'Pkt. 16 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie ustanowienia roku 2025 Rokiem Polskich Oficerów z Katynia, Miednoje i Ostaszkowa (druki nr 353 i 492)',
-       'Pkt. 18 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie ustanowienia roku 2025 Rokiem Franciszka Duszeńko (druki nr 359 i 531)',
-       'Pkt. 19 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie ustanowienia roku 2025 Rokiem Generała Kazimierza Sosnkowskiego (druki nr 360 i 532)',
-       'Pkt. 20 Zmiany w składach osobowych komisji sejmowych (druk nr 570)',
-       'Pkt. 35 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy o prawie autorskim i prawach pokrewnych, ustawy o ochronie baz danych oraz ustawy o zbiorowym zarządzaniu prawami autorskimi i prawami pokrewnymi (druki nr 576 i 581)',
-       'Pkt. 38 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie niektórych ustaw w celu usprawnienia działań Sił Zbrojnych Rzeczypospolitej Polskiej, Policji oraz Straży Granicznej na wypadek zagrożenia bezpieczeństwa państwa (druki nr 584 i 587)',
-       'Pkt. 39 Sprawozdanie Komisji o poselskich projektach uchwał:- w sprawie uczczenia 81. rocznicy zbrodni ludobójstwa dokonanej na Polakach przez nacjonalistów ukraińskich,- w sprawie oddania hołdu w 81. rocznicę Krwawej Niedzieli ofiarom ludobójstwa dokonanego przez szowinistów ukraińskich na obywatelach II Rzeczypospolitej Polskiej w latach 1943-1945 (druki nr 533, 536, 569 i 569-A)',
-       'Pkt. 44 Zmiany w składach osobowych komisji sejmowych (druk nr 585)',
-       '17. posiedzenie Sejmu Rzeczypospolitej Polskiej w dniach 11, 12 i 13 września 2024 r.',
-       'Pkt. 18 Powołanie członków Państwowej Komisji do spraw przeciwdziałania wykorzystaniu seksualnemu małoletnich poniżej lat 15 (druki nr 592, 593, 594, 595, 596, 598, 624, 625, 626, 627, 628 i 630)',
-       '18. posiedzenie Sejmu Rzeczypospolitej Polskiej w dniach 25, 26 i 27 września oraz 1 października 2024 r.',
-       'Pkt. 9 Zmiany w składzie osobowym Komisji Śledczej do zbadania legalności, prawidłowości oraz celowości czynności operacyjno-rozpoznawczych podejmowanych m.in. z wykorzystaniem oprogramowania Pegasus przez członków Rady Ministrów, służby specjalne, Policję, organy kontroli skarbowej oraz celno-skarbowej, organy powołane do ścigania przestępstw i prokuraturę w okresie od dnia 16 listopada 2015 r. do dnia 20 listopada 2023 r. (druk nr 677)',
-       'Pkt. 4 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o delegowaniu kierowców w transporcie drogowym oraz niektórych innych ustaw (druki nr 602, 623 i 623-A)',
-       'Pkt. 5 Sprawozdanie Komisji o poselskim projekcie ustawy o zmianie ustawy o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych (druki nr 665 i 667)',
-       'Głosowanie proceduralne',
-       'Pkt. 16 Pierwsze czytanie przedstawionego przez Prezydium Sejmu projektu uchwały w sprawie powołania i wyboru składu osobowego Komisji Nadzwyczajnej do spraw działań przeciwpowodziowych i usuwania skutków powodzi z roku 2024 (druk nr 678)',
-       'Pkt. 6 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o podatku dochodowym od osób fizycznych oraz niektórych innych ustaw (druki nr 601, 601-A, 657 i 657-A)',
-       'Pkt. 19 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie ustanowienia Dnia Pamięci Ofiar Zagłady Osób z Zaburzeniami Psychicznymi na terenach okupowanej Polski podczas II wojny światowej (druki nr 614 i 641)',
-       'Pkt. 17 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie niektórych ustaw w związku z utworzeniem oddziałów o\xa0profilu mundurowym oraz ułatwieniem powrotu do służby w Policji i Straży Granicznej (druki nr 605, 649 i 649-A)',
-       'Pkt. 33 Sprawozdanie Komisji o rządowym projekcie ustawy o dochodach jednostek samorządu terytorialnego (druki nr 622, 675 i 675-A)',
-       'Pkt. 27 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o szczególnych rozwiązaniach związanych z usuwaniem skutków powodzi oraz niektórych innych ustaw (druki nr 672, 672-A, 683 i 683-A)',
-       'Pkt. 28 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie niektórych ustaw w celu wsparcia przedsiębiorców zatrudniających żołnierzy Obrony Terytorialnej lub żołnierzy Aktywnej Rezerwy (druki nr 673, 681 i 681-A)',
-       'Pkt. 6 Zmiany w składach osobowych komisji sejmowych (druk nr 689) - kontynuacja',
-       'Pkt. 5 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie upamiętnienia 180. rocznicy urodzin Wawrzyńca Hajdy, śląskiego działacza niepodległościowego (druki nr 662 i 666)',
-       'Pkt. 1 Sprawozdanie Komisji o poselskim projekcie ustawy o zmianie ustawy o rozwoju lokalnym z udziałem lokalnej społeczności (druki nr 496, 679 i 679-A)',
-       'Pkt. 15 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy o kołach gospodyń wiejskich oraz ustawy o społeczno-zawodowych organizacjach rolników (druki nr 714 i 720)',
-       '20. posiedzenie Sejmu Rzeczypospolitej Polskiej w dniach 16, 17 i 18 października 2024 r.',
-       'Pkt. 23 Sprawozdanie Komisji o rządowym projekcie ustawy o udziale Rzeczypospolitej Polskiej w Systemie Wjazdu/Wyjazdu (druki nr 722, 732 i 732-A)',
-       'Pkt. 10 Sprawozdanie Komisji w sprawie wniosku oskarżyciela prywatnego Piotra Gruszczyńskiego reprezentowanego przez adwokata Andrzeja Gozdowskiego z dnia 14 grudnia 2021 r., uzupełnionego w dniu 11 lutego 2022 r., o wyrażenie zgody na pociągniecie do odpowiedzialności karnej posła Zbigniewa Dolaty (druk nr 634)',
-       'Pkt. 20 Zmiany w składach osobowych komisji sejmowych (druk nr 735)',
-       '21. posiedzenie Sejmu Rzeczypospolitej Polskiej w dniach 6, 7 i 8 listopada 2024 r.',
-       'Pkt. 12 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie nazwy Akademii Wychowania Fizycznego im. Bronisława Czecha w Krakowie (druki nr 727 i 739)',
-       'Pkt. 14 Sprawozdanie Komisji o rządowym projekcie ustawy o ochronie ludności i obronie cywilnej (druki nr 664, 749 i 749-A)',
-       '22. posiedzenie Sejmu Rzeczypospolitej Polskiej w dniach 19, 20, 21, 22 i 27 listopada 2024 r.',
-       'Wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu w sprawie sprawozdania z druku nr 816',
-       'Wniosek o skrócenie terminu, o którym mowa w art. 37 ust. 4 regulaminu Sejmu w sprawie przedłożenia z druku nr 841',
-       'Pkt. 8 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o transporcie drogowym (druki nr 752 i 798)',
-       'Pkt. 6 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy - Prawo energetyczne oraz niektórych innych ustaw (druki nr 743, 796 i 796-A)',
-       'Pkt. 20 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o szczególnych rozwiązaniach związanych z\xa0usuwaniem skutków powodzi oraz niektórych innych ustaw (druki nr 802, 816 i 816-A)',
-       'Pkt. 13 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o sporcie oraz niektórych innych ustaw (druki nr 742, 794 i 794-A)',
-       'Wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu w sprawie sprawozdania z druku nr 858',
-       'Pkt. 30 Pierwsze czytanie rządowego projektu ustawy o zmianie ustawy - Kodeks pracy oraz niektórych innych ustaw (druk nr 762)',
-       'Pkt. 38 Sprawozdanie Komisji o rządowym projekcie ustawy o zapewnieniu finansowania działań zmierzających do zwiększenia zdolności produkcji amunicji (druki nr 839, 858 i 858-A)',
-       'Pkt. 36 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy - Prawo ochrony środowiska oraz niektórych innych ustaw (druki nr 813, 863 i 863-A)',
-       'Pkt. 34 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy - Prawo geodezyjne i kartograficzne oraz ustawy o\xa0zmianie ustawy o planowaniu i zagospodarowaniu przestrzennym oraz niektórych innych ustaw (druki nr 801, 815 i 815-A)',
-       'Pkt. 35 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o ubezpieczeniach upraw rolnych i zwierząt gospodarskich (druki nr 804, 820 i 820-A)',
-       'Pkt. 47 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy o odnawialnych źródłach energii oraz niektórych innych ustaw (druki nr 847 i 849)',
-       'Pkt. 10 Sprawozdanie Komisji o rządowym projekcie ustawy o wypowiedzeniu Porozumienia o zdolności prawnej, przywilejach i\xa0immunitetach Międzynarodowej Organizacji Łączności Kosmicznej "Intersputnik", sporządzonego w Berlinie dnia 20 września 1976 r. (druki nr 745 i 779)',
-       'Pkt. 11 Sprawozdanie Komisji o rządowym projekcie ustawy o wypowiedzeniu Porozumienia o utworzeniu międzynarodowego systemu i organizacji łączności kosmicznej "Intersputnik", sporządzonego w\xa0Moskwie dnia 15 listopada 1971 r., zmienionego Protokołem o wprowadzeniu zmian do Porozumienia sporządzonego w Moskwie dnia 15 listopada 1971\xa0r. o\xa0utworzeniu międzynarodowego systemu i organizacji łączności kosmicznej "Intersputnik", przyjętym podczas XXV Jubileuszowej Sesji Rady INTERSPUTNIK w Moskwie dnia 30 listopada 1996 r. (druki nr 746 i 780)',
-       'Pkt. 4 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o Funduszu Ochrony Rolnictwa oraz niektórych innych ustaw (druki nr 842 i 859)',
-       'Pkt. 5 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych (druki nr 852 i 856)',
-       'Pkt. 15 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o ochronie ludności i obronie cywilnej (druki nr 854 i 869)',
-       'Wniosek o rozpatrzenie poprawek zawartych w uchwale Senatu bez kierowania ich do komisji',
-       'Pkt. 4 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy o odpadach oraz niektórych innych ustaw (druki nr 887 i 891)',
-       'Pkt. 7 Rozpatrzenie uchwały Senatu w sprawie ustawy o zmianie ustawy - Kodeks pracy oraz niektórych innych ustaw (druk nr 894)',
-       'Głosowanie proceduralne dotyczące druku 930',
-       'Pkt. 4 Sprawozdanie Komisji o poselskim projekcie ustawy o ustanowieniu Narodowego Dnia Pamięci Żołnierzy Armii Krajowej (druki nr 925 i 930)',
-       'Pkt. 13 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy budżetowej na rok 2025 (druki nr 919 i 940)',
-       'Pkt. 14 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych oraz niektórych innych ustaw (druki nr 916 i 918)',
-       'Pkt. 6 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy - Prawo wodne oraz ustawy o zmianie ustawy - Prawo wodne oraz niektórych innych ustaw (druki nr 895 i 931)',
-       'Pkt. 5 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o podatku od towarów i usług, ustawy o podatku akcyzowym oraz niektórych innych ustaw (druki nr 896, 941 i 941-A)',
-       'Pkt. 16 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy - Prawo lotnicze oraz niektórych innych ustaw (druki nr 945 i 960)',
-       'Pkt. 23 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy o rynku mocy (druki nr 974 i 977)',
-       '28. posiedzenie Sejmu Rzeczypospolitej Polskiej w dniach 5 i 6 lutego 2025 r.',
-       'Pkt. 8 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie upamiętnienia 105. rocznicy Zaślubin Polski z Morzem w Pucku (druki nr 910 i 975)',
-       'Pkt. 4 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o znakach Sił Zbrojnych Rzeczypospolitej Polskiej (druki nr 932 i 963)',
-       'Pkt. 1 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o biokomponentach i biopaliwach ciekłych oraz niektórych innych ustaw (druki nr 956, 979 i 979-A)',
-       'Pkt. 2 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy - Prawo lotnicze (druki nr 952, 961 i 961-A)',
-       'Pkt. 12 Zmiany w składach osobowych komisji sejmowych (druk nr 1013)',
-       '29. posiedzenie Sejmu Rzeczypospolitej Polskiej w dniach 20 i 21 lutego 2025 r.',
-       'Pkt. 5 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o obszarach morskich Rzeczypospolitej Polskiej i administracji morskiej (druki nr 933, 957 i 957-A)',
-       '30. posiedzenie Sejmu Rzeczypospolitej Polskiej w dniach 5, 6 i 7 marca 2025 r.',
-       'Głosowanie proceduralne dotyczące druku 1071',
-       'Pkt. 9 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie uczczenia Macieja Kazimierza Sarbiewskiego w 430. rocznicę urodzin (druki nr 1046 i 1048)',
-       'Pkt. 21 Sprawozdanie Komisji o poselskim projekcie uchwały w 150. rocznicę urodzin Cyryla Ratajskiego (druki nr 1045 i 1071)',
-       'Pkt. 27 Zmiany w składach osobowych komisji sejmowych (druk nr 1087)',
-       'Głosowanie proceduralne dotyczące druku 1111',
-       'Głosowanie proceduralne dotyczące druku 1096',
-       '31. posiedzenie Sejmu Rzeczypospolitej Polskiej w dniach 19 i 20 marca 2025 r.',
-       'Pkt. 1 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o współpracy rozwojowej oraz niektórych innych ustaw (druki nr 1034 i 1086)',
-       'Pkt. 4 Sprawozdanie Komisji o rządowym projekcie ustawy o ratyfikacji Poprawek do Konwencji o pracy na morzu, przyjętej w Genewie dnia 23 lutego 2006 r., zatwierdzonych przez Międzynarodową Konferencję Pracy w Genewie w dniu 6 czerwca 2022 r. (druki nr 994 i 1068)',
-       'Pkt. 5 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie zmiany Regulaminu Sejmu Rzeczypospolitej Polskiej (druki nr 1042 i 1063)',
-       'Pkt. 2 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o Państwowym Ratownictwie Medycznym oraz niektórych innych ustaw (druki nr 1058, 1111 i 1111-A)',
-       'Pkt. 7 Sprawozdanie Komisji o poselskim projekcie ustawy o zmianie ustawy o zawodzie lekarza weterynarii i izbach lekarsko-weterynaryjnych (druki nr 1038 i 1101)',
-       'Pkt. 14 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy o obszarach morskich Rzeczypospolitej Polskiej i administracji morskiej oraz ustawy o inwestycjach w zakresie budowy portów zewnętrznych (druki nr 1095 i 1096)',
-       'Pkt. 15 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o rynku pracy i służbach zatrudnienia (druki nr 1092 i 1100)',
-       'Pkt. 16 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o warunkach dopuszczalności powierzania pracy cudzoziemcom na terytorium Rzeczypospolitej Polskiej (druki nr 1091 i 1099)',
-       'Pkt. 19 Zmiany w składach osobowych komisji sejmowych (druk nr 1122)',
-       'Głosowanie proceduralne dotyczące druku 1140',
-       'Pkt. 6 Sprawozdanie Komisji o senackim projekcie ustawy o zmianie ustawy o zagospodarowaniu wspólnot gruntowych (druki nr 995 i 1123)',
-       'Pkt. 21 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie wyborów prezydenckich na Białorusi (druki nr 1003, 1088 i 1088-A) - głosowanie',
-       'Pkt. 8 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o planowaniu i zagospodarowaniu przestrzennym oraz niektórych innych ustaw (druki nr 1133, 1136 i 1136-A)',
-       'Pkt. 23 Zmiany w składach osobowych komisji sejmowych (druk nr 1156)',
-       'Głosowanie proceduralne dotyczące druku nr 1176',
-       'Głosowanie proceduralne dotyczące druku nr 1180',
-       'Pkt. 4 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o szczególnych rozwiązaniach służących ochronie odbiorców energii elektrycznej w 2023 roku oraz w 2024 roku w związku z sytuacją na rynku energii elektrycznej (druki nr 1175 i 1183)',
-       'Głosowanie proceduralne dotyczące druku nr 1198',
-       'Głosowanie proceduralne dotyczące druku nr 1199',
-       'Pkt. 14 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie upamiętnienia Papieża Franciszka (druki nr 1181 i 1199)',
-       'Pkt. 5 Sprawozdanie Komisji o poselskim projekcie ustawy o zmianie ustawy o ochronie praw nabywcy lokalu mieszkalnego lub domu jednorodzinnego oraz Deweloperskim Funduszu Gwarancyjnym oraz ustawy o ochronie konkurencji i konsumentów (druki nr 1112 i 1180)',
-       'Pkt. 3 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie niektórych ustaw w celu deregulacji prawa gospodarczego i administracyjnego oraz doskonalenia zasad opracowywania prawa gospodarczego (druki nr 1108, 1168 i 1168-A)',
-       'Pkt. 9 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie ustawy o Państwowym Ratownictwie Medycznym oraz niektórych innych ustaw (druki nr 1166 i 1198)',
-       '34. posiedzenie Sejmu Rzeczypospolitej Polskiej w dniach 7, 8 i 9 maja 2025 r.',
-       'Pkt. 8 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie upamiętnienia Haliny Poświatowskiej w 90. rocznicę urodzin (druki nr 1144 i 1182)',
-       'Pkt. 4 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o szczególnych rozwiązaniach związanych z usuwaniem skutków powodzi oraz niektórych innych ustaw (druki nr 1176, 1200 i 1200-A)',
-       'Pkt. 21 Zmiany w składach osobowych komisji sejmowych (druk nr 1230)',
-       'Głosowanie proceduralne dotyczące druku 1278',
-       'Pkt. 7 Sprawozdanie Komisji o poselskim projekcie uchwały w sprawie uczczenia 100-lecia istnienia Uniwersytetu Ekonomicznego w Krakowie (druki nr 1207 i 1224)',
-       'Głosowanie proceduralne dotyczące druku 1253',
-       'Pkt. 4 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy o repatriacji oraz niektórych innych ustaw (druki nr 1201, 1215 i 1215-A)',
-       'Pkt. 9 Sprawozdanie Komisji o:- komisyjnym projekcie uchwały w sprawie uczczenia 35. rocznicy odrodzenia samorządu terytorialnego w Polsce,- poselskim projekcie uchwały na 35-lecie odrodzenia samorządu terytorialnego w Polsce (druki nr 1138, 1165 i 1169)',
-       'Pkt. 12 Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie niektórych ustaw w związku z wprowadzaniem centralnego systemu informacji rynku energii (druki nr 1209 i 1278)',
-       'Pkt. 20 Sprawozdanie Komisji o uchwale Senatu w sprawie ustawy o zmianie niektórych ustaw w celu deregulacji prawa gospodarczego i administracyjnego oraz doskonalenia zasad opracowywania prawa gospodarczego (druki nr 1247 i 1253)',
-       'Pkt. 21 Zmiana w składzie osobowym komisji sejmowej (druk nr 1279)',
-       'Głosowanie proceduralne dotyczące druku 1287'], dtype=object)</pre>
+<pre>10</pre>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=aa489a47d53092ab">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Patrząc na tytuły głosowań nie widać niczego co możemy odrzucić</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9e73e44f90556b2e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">non_yes_no_df</span><span class="o">.</span><span class="n">topic</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>array([nan, 'głosowanie nad przyjęciem wniosku z druku.',
-       'głosowanie nad całością projektu.', 'poprawka', 'poprawka 4',
-       'poprawka 9', 'głosowanie nad całością projektu uchwały',
-       'poprawka 2', 'poprawka 6',
-       'wniosek o przyjęcie wniosku z druku nr ...',
-       'głosowanie nad przyjęciem wniosku z druku', 'poprawka 1',
-       'poprawka 3', 'wniosek mniejszości 1', 'poprawka 8',
-       'poprawki nr 1-2, 4, 6-7, 9-10, 12-24 oraz 26-31', 'poprawka 5',
-       'poprawka 11', 'poprawka 25',
-       'wnioski mniejszości nr 10 i 12 oraz poprawki 12 i 14',
-       'poprawki nr 4, 10, 13, 20, 22, 24, 26-27, 29 i 32', 'poprawka 12',
-       'poprawka 14', 'poprawka 15', 'poprawka 16', 'poprawka 17',
-       'poprawka 18', 'poprawka 19', 'poprawka 21', 'poprawka 23',
-       'poprawka 28', 'poprawka 30', 'poprawki nr 1, 4 i 21',
-       'poprawki nr 3, 5 i 12', 'poprawki nr 6, 8-9, 11, 14 i 20',
-       'poprawki nr 7 i 18', 'poprawka 13', 'poprawki nr 1-2',
-       'wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu',
-       'głosowanie nad kandydaturą p. Dominiki Czerniak na stanowisko członka Państwowej Komisji do spraw przeciwdziałania wykorzystaniu seksualnemu małoletnich poniżej lat 15',
-       'wniosek o skrócenie terminu, o którym mowa w art. 37 ust. 4 regulaminu Sejmu',
-       'głosowanie nad odwołaniem posła Pawła Śliza ze składu Komisji',
-       'głosowanie nad powołaniem posła Sławomira Ćwika do składu Komisji',
-       'poprawki nr 1 i 3',
-       'wniosek o skrócenie terminu, o którym mowa w art. 37 ust. 4 regulaminu Sejmu w sprawie przedłożenia z druku nr 678',
-       'wniosek o przystąpienie do drugiego czytania bez kierowania projektu z druku nr 678 do komisji',
-       'wniosek o stwierdzenie kworum', 'poprawka 22', 'poprawka 31',
-       'poprawka 38', 'poprawka 41', 'poprawka 42', 'poprawka 43',
-       'poprawka 45', 'poprawka 46', 'poprawka 50', 'poprawka 51',
-       'Głosowanie kworum',
-       'głosowanie nad przyjęciem wniosku o wyrażenie zgody na pociągnięcie do odpowiedzialności karnej posła Zbigniewa Dolaty',
-       'poprawka 20', 'poprawki nr 29 i 58', 'poprawki nr 30, 53 i 57',
-       'poprawka 49', 'poprawka 56', 'głosowanie nad przyjęciem wniosku',
-       'wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu w sprawie sprawozdania z druku nr 858',
-       'wniosek o przystąpienie do drugiego czytania  bez kierowania projektu do komisji',
-       'poprawki nr 1-2, 4-5, 7-11 oraz 13-20',
-       'poprawki nr 1-3 oraz 5-7',
-       'wniosek o przystąpienie do trzeciego czytania bez kierowania projektu do komisji',
-       'poprawki nr 4 i 22', 'poprawki nr 5, 7 i 15',
-       'poprawki nr 9 i 14', 'poprawki nr 10-13 i 17',
-       'Wniosek o rozpatrzenie poprawek zawartych w uchwale Senatu bez kierowania ich do komisji',
-       'Druk nr 930 - wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu',
-       'poprawka 7', 'poprawka 24', 'poprawka 26', 'poprawki nr 7 i 16',
-       'wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu w sprawie sprawozdania z druku nr 1071',
-       'wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu w sprawie sprawozdania z druku nr 1111',
-       'wniosek o skrócenie terminu, o którym mowa w art. 54 ust. 5 regulaminu Sejmu w sprawie sprawozdania z druku nr 1096.',
-       'poprawki nr 1-2 i 4',
-       'poprawki nr 2-3, 6-10, 13-15, 17-21, 23-43, 46, 49-51, 53-55, 57-58, 60-64, 66-76, 78-81, 83-86, 88-101 oraz 103-104',
-       'poprawki nr 45, 47-48, 52, 56 i 59', 'poprawka 65', 'poprawka 87',
-       'poprawki nr 2, 20, 38 oraz 40-41', 'poprawki nr 3, 5 i 17',
-       'wniosek o skrócenie terminu, o którym mowa w art. 37 ust. 4 regulaminu Sejmu w sprawie przedłożenia z druku nr 1140',
-       'wniosek o skrócenie terminu, o którym mowa w art. 37 ust. 4 regulaminu Sejmu, w sprawie przedłożenia z druku nr 1176',
-       'wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu, w sprawie sprawozdania z druku nr 1180',
-       'wniosek o skrócenie terminu, o którym mowa w art. 54 ust. 5 regulaminu Sejmu w sprawie sprawozdania z druku nr 1198',
-       'wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu w sprawie sprawozdania z druku nr 1199',
-       'poprawki nr 32 oraz 35-37', 'poprawka 10', 'poprawki nr 18 i 20',
-       'wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu w sprawie sprawozdania z druku nr 1278',
-       'wniosek o skrócenie terminu, o którym mowa w art. 54 ust. 5 regulaminu Sejmu w sprawie sprawozdania z druku nr 1253',
-       'poprawki nr 22 i 34', 'poprawki nr 29, 31 i 35', 'poprawka 32',
-       'poprawka 33',
-       'wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu w sprawie sprawozdania z druku nr 1287'],
-      dtype=object)</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4ab201ac5c057e94">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Tematem głosowania które przykuwa uwagę jest <code>Głosowanie kworum</code>. Kworum oznacza minimalną liczbę osób do podjęcia decyzji. Może to sugerować że w takim głosowaniu posłowie nie oddają głosu <code>TAK</code> lub <code>NIE</code></p>
 </div>
 </div>
 </div>
@@ -8335,7 +8066,7 @@ Sprawdzając tytuły i tematy głosowań możemy zidentyfikować które głosowa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">quorum_voting_df</span> <span class="o">=</span> <span class="n">voting_df</span><span class="p">[</span><span class="n">voting_df</span><span class="o">.</span><span class="n">topic</span> <span class="o">==</span> <span class="s1">'Głosowanie kworum'</span><span class="p">]</span>
@@ -8350,7 +8081,7 @@ Sprawdzając tytuły i tematy głosowań możemy zidentyfikować które głosowa
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">quorum_votes</span> <span class="o">=</span> <span class="n">quorum_voting_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">votes</span>
@@ -8367,7 +8098,7 @@ Sprawdzając tytuły i tematy głosowań możemy zidentyfikować które głosowa
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>array(['ABSENT', 'PRESENT'], dtype=object)</pre>
 </div>
@@ -8391,7 +8122,7 @@ Należy te głosowania wykluczyć z analizy głosowań <code>TAK</code> lub <cod
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">non_list_voting_df</span> <span class="o">=</span> <span class="n">voting_df</span><span class="p">[</span><span class="n">voting_df</span><span class="o">.</span><span class="n">kind</span> <span class="o">==</span> <span class="s1">'ELECTRONIC'</span><span class="p">]</span>
@@ -8405,12 +8136,44 @@ Należy te głosowania wykluczyć z analizy głosowań <code>TAK</code> lub <cod
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">yes_no_voting_df</span> <span class="o">=</span> <span class="n">non_list_voting_df</span><span class="p">[</span><span class="n">non_list_voting_df</span><span class="o">.</span><span class="n">topic</span> <span class="o">!=</span> <span class="s1">'Głosowanie kworum'</span><span class="p">]</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d54e8ca2-b85b-4578-b051-67c3ccca4eb5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Warto%C5%9Bci-statystyczne-poszczeg%C3%B3lnych-g%C5%82os%C3%B3w">Wartości statystyczne poszczególnych głosów<a class="anchor-link" href="#Warto%C5%9Bci-statystyczne-poszczeg%C3%B3lnych-g%C5%82os%C3%B3w">¶</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=711a51f8-674f-4500-9649-aa013a21376e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Funckja <code>describe</code> zapewnia informacje o:</p>
+<ul>
+<li>count: Liczba niepustych wierszy (czyli liczba przeanalizowanych głosowań).</li>
+<li>mean: Średnia arytmetyczna (np. średni procent głosów na "tak" we wszystkich głosowaniach).</li>
+<li>std: Odchylenie standardowe, czyli miara tego, jak bardzo wyniki są "rozstrzelone" wokół średniej.</li>
+<li>min: Wartość minimalna (najniższy zanotowany procent głosów).</li>
+<li>25%: Pierwszy kwartyl. 25% wyników było niższych lub równych tej wartości.</li>
+<li>50%: Mediana. Dokładnie połowa wyników była niższa lub równa tej wartości. To środkowy wynik.</li>
+<li>75%: Trzeci kwartyl. 75% wyników było niższych lub równych tej wartości.</li>
+<li>max: Wartość maksymalna (najwyższy zanotowany procent głosów).</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8421,7 +8184,7 @@ Należy te głosowania wykluczyć z analizy głosowań <code>TAK</code> lub <cod
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Statystyki-opisowe-procent%C3%B3w-rozk%C5%82adu-g%C5%82os%C3%B3w-TAK-lub-NIE">Statystyki opisowe procentów rozkładu głosów <code>TAK</code> lub <code>NIE</code><a class="anchor-link" href="#Statystyki-opisowe-procent%C3%B3w-rozk%C5%82adu-g%C5%82os%C3%B3w-TAK-lub-NIE">¶</a></h2>
+<h3 id="Warto%C5%9Bci-statystyczne-procent%C3%B3w-g%C5%82os%C3%B3w-TAK-lub-NIE">Wartości statystyczne procentów głosów <code>TAK</code> lub <code>NIE</code><a class="anchor-link" href="#Warto%C5%9Bci-statystyczne-procent%C3%B3w-g%C5%82os%C3%B3w-TAK-lub-NIE">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8430,7 +8193,7 @@ Należy te głosowania wykluczyć z analizy głosowań <code>TAK</code> lub <cod
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">yes_no_voting_df</span><span class="p">[[</span><span class="s1">'percentOfYes'</span><span class="p">,</span> <span class="s1">'percentOfNo'</span><span class="p">]]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -8444,7 +8207,7 @@ Należy te głosowania wykluczyć z analizy głosowań <code>TAK</code> lub <cod
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8523,7 +8286,7 @@ Należy te głosowania wykluczyć z analizy głosowań <code>TAK</code> lub <cod
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Statystyki-opisowe-procent%C3%B3w-rozk%C5%82adu-g%C5%82os%C3%B3w-WSTRZYMANO-SI%C4%98">Statystyki opisowe procentów rozkładu głosów <code>WSTRZYMANO SIĘ</code><a class="anchor-link" href="#Statystyki-opisowe-procent%C3%B3w-rozk%C5%82adu-g%C5%82os%C3%B3w-WSTRZYMANO-SI%C4%98">¶</a></h2>
+<h3 id="Warto%C5%9Bci-statystyczne-procent%C3%B3w-g%C5%82os%C3%B3w-WSTRZYMANO-SI%C4%98">Wartości statystyczne procentów głosów <code>WSTRZYMANO SIĘ</code><a class="anchor-link" href="#Warto%C5%9Bci-statystyczne-procent%C3%B3w-g%C5%82os%C3%B3w-WSTRZYMANO-SI%C4%98">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8532,7 +8295,7 @@ Należy te głosowania wykluczyć z analizy głosowań <code>TAK</code> lub <cod
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">non_list_voting_df</span><span class="o">.</span><span class="n">percentOfAbstain</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -8546,7 +8309,7 @@ Należy te głosowania wykluczyć z analizy głosowań <code>TAK</code> lub <cod
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>count    1947.000000
 mean        3.759101
@@ -8568,7 +8331,7 @@ Name: percentOfAbstain, dtype: float64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Statystyki-opisowe-procent%C3%B3w-rozk%C5%82adu-g%C5%82os%C3%B3w-NIEOBECNY">Statystyki opisowe procentów rozkładu głosów <code>NIEOBECNY</code><a class="anchor-link" href="#Statystyki-opisowe-procent%C3%B3w-rozk%C5%82adu-g%C5%82os%C3%B3w-NIEOBECNY">¶</a></h2>
+<h3 id="Warto%C5%9Bci-statystyczne-procent%C3%B3w-g%C5%82os%C3%B3w--NIEOBECNY">Wartości statystyczne procentów głosów  <code>NIEOBECNY</code><a class="anchor-link" href="#Warto%C5%9Bci-statystyczne-procent%C3%B3w-g%C5%82os%C3%B3w--NIEOBECNY">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8577,7 +8340,7 @@ Name: percentOfAbstain, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">voting_df</span><span class="o">.</span><span class="n">percentOfAbsent</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -8591,7 +8354,7 @@ Name: percentOfAbstain, dtype: float64</pre>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>count    1953.000000
 mean        6.614772
@@ -8636,7 +8399,7 @@ Co to oznacza? Że 20% wszystkich głosowań zakończyło się wynikiem 40% "na 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">column</span> <span class="ow">in</span> <span class="n">percent_columns</span><span class="p">:</span>
